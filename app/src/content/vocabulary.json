@@ -1,0 +1,794 @@
+[
+  {
+    "id": "breakfast_bojinbng",
+    "hanzi": "薄煎饼",
+    "pinyin": "báo jiān bǐng",
+    "english": "pancake",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:0",
+    "audio": "media/薄煎饼.webm"
+  },
+  {
+    "id": "breakfast_wihubng",
+    "hanzi": "威化饼",
+    "pinyin": "wēi huà bǐng",
+    "english": "wafer",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:1",
+    "audio": "media/威化饼.webm"
+  },
+  {
+    "id": "breakfast_xnru",
+    "hanzi": "熏肉",
+    "pinyin": "xūn ròu",
+    "english": "bacon",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:2",
+    "audio": "media/熏肉.webm"
+  },
+  {
+    "id": "breakfast_niyu",
+    "hanzi": "牛油",
+    "pinyin": "niú yóu",
+    "english": "butter",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:3",
+    "audio": "media/牛油.webm"
+  },
+  {
+    "id": "breakfast_nilo",
+    "hanzi": "奶酪",
+    "pinyin": "nǎi lào",
+    "english": "cheese",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:4",
+    "audio": "media/奶酪.webm"
+  },
+  {
+    "id": "breakfast_jdn",
+    "hanzi": "鸡蛋",
+    "pinyin": "jī dàn",
+    "english": "egg",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:5",
+    "audio": "media/鸡蛋.webm"
+  },
+  {
+    "id": "breakfast_minbo",
+    "hanzi": "面包",
+    "pinyin": "miàn bāo",
+    "english": "bread",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:6",
+    "audio": "media/面包.webm"
+  },
+  {
+    "id": "breakfast_fngm",
+    "hanzi": "蜂蜜",
+    "pinyin": "fēng mì",
+    "english": "honey",
+    "category": "breakfast",
+    "frame": "Breakfast:Default:7",
+    "audio": "media/蜂蜜.webm"
+  },
+  {
+    "id": "drinks_guzh",
+    "hanzi": "果汁",
+    "pinyin": "guǒ zhī",
+    "english": "juice",
+    "category": "drinks",
+    "frame": "Drinks:Default:0",
+    "audio": "media/果汁.webm"
+  },
+  {
+    "id": "drinks_pji",
+    "hanzi": "啤酒",
+    "pinyin": "pí jiǔ",
+    "english": "beer",
+    "category": "drinks",
+    "frame": "Drinks:Default:1",
+    "audio": "media/啤酒.webm"
+  },
+  {
+    "id": "drinks_xingbnji",
+    "hanzi": "香槟酒",
+    "pinyin": "xiāng bīn jiǔ",
+    "english": "champagne",
+    "category": "drinks",
+    "frame": "Drinks:Default:2",
+    "audio": "media/香槟酒.webm"
+  },
+  {
+    "id": "drinks_jwiji",
+    "hanzi": "鸡尾酒",
+    "pinyin": "jī wěi jiǔ",
+    "english": "cocktail",
+    "category": "drinks",
+    "frame": "Drinks:Default:3",
+    "audio": "media/鸡尾酒.webm"
+  },
+  {
+    "id": "drinks_kfi",
+    "hanzi": "咖啡",
+    "pinyin": "kā fēi",
+    "english": "coffee",
+    "category": "drinks",
+    "frame": "Drinks:Default:4",
+    "audio": "media/咖啡.webm"
+  },
+  {
+    "id": "drinks_nini",
+    "hanzi": "牛奶",
+    "pinyin": "niú nǎi",
+    "english": "milk",
+    "category": "drinks",
+    "frame": "Drinks:Default:5",
+    "audio": "media/牛奶.webm"
+  },
+  {
+    "id": "drinks_kl",
+    "hanzi": "可乐",
+    "pinyin": "kě lè",
+    "english": "cola",
+    "category": "drinks",
+    "frame": "Drinks:Default:6",
+    "audio": "media/可乐.webm"
+  },
+  {
+    "id": "drinks_lch",
+    "hanzi": "绿茶",
+    "pinyin": "lǜ chá",
+    "english": "green tea",
+    "category": "drinks",
+    "frame": "Drinks:Default:7",
+    "audio": "media/绿茶.webm"
+  },
+  {
+    "id": "drinks_shu",
+    "hanzi": "水",
+    "pinyin": "shuǐ",
+    "english": "water",
+    "category": "drinks",
+    "frame": "Drinks:Default:8",
+    "audio": "media/水.webm"
+  },
+  {
+    "id": "drinks_ptoji",
+    "hanzi": "葡萄酒",
+    "pinyin": "pú táo jiǔ",
+    "english": "wine",
+    "category": "drinks",
+    "frame": "Drinks:Default:9",
+    "audio": "media/葡萄酒.webm"
+  },
+  {
+    "id": "fruit1_pnggu",
+    "hanzi": "苹果",
+    "pinyin": "píng guǒ",
+    "english": "apple",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:0",
+    "audio": "media/苹果.webm"
+  },
+  {
+    "id": "fruit1_jzi",
+    "hanzi": "橘子",
+    "pinyin": "jú zi",
+    "english": "orange",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:1",
+    "audio": "media/橘子.webm"
+  },
+  {
+    "id": "fruit1_xingjio",
+    "hanzi": "香蕉",
+    "pinyin": "xiāng jiāo",
+    "english": "banana",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:2",
+    "audio": "media/香蕉.webm"
+  },
+  {
+    "id": "fruit1_comi",
+    "hanzi": "草莓",
+    "pinyin": "cǎo méi",
+    "english": "strawberry",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:3",
+    "audio": "media/草莓.webm"
+  },
+  {
+    "id": "fruit1_lnmi",
+    "hanzi": "蓝莓",
+    "pinyin": "lán méi",
+    "english": "blueberry",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:4",
+    "audio": "media/蓝莓.webm"
+  },
+  {
+    "id": "fruit1_lzi",
+    "hanzi": "梨子",
+    "pinyin": "lí zi",
+    "english": "pear",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:5",
+    "audio": "media/梨子.webm"
+  },
+  {
+    "id": "fruit1_tozi",
+    "hanzi": "桃子",
+    "pinyin": "táo zi",
+    "english": "peach",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:6",
+    "audio": "media/桃子.webm"
+  },
+  {
+    "id": "fruit1_xgu",
+    "hanzi": "西瓜",
+    "pinyin": "xī guā",
+    "english": "watermelon",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:7",
+    "audio": "media/西瓜.webm"
+  },
+  {
+    "id": "fruit1_mnggu",
+    "hanzi": "芒果",
+    "pinyin": "máng guǒ",
+    "english": "mango",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:8",
+    "audio": "media/芒果.webm"
+  },
+  {
+    "id": "fruit1_pto",
+    "hanzi": "葡萄",
+    "pinyin": "pú táo",
+    "english": "grape",
+    "category": "fruit1",
+    "frame": "Fruit1:Fruit:9",
+    "audio": "media/葡萄.webm"
+  },
+  {
+    "id": "fruit2_gu",
+    "hanzi": "瓜",
+    "pinyin": "guā",
+    "english": "melon",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:0",
+    "audio": "media/瓜.webm"
+  },
+  {
+    "id": "fruit2_nngmng",
+    "hanzi": "柠檬",
+    "pinyin": "níng méng",
+    "english": "lemon",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:1",
+    "audio": "media/柠檬.webm"
+  },
+  {
+    "id": "fruit2_yzi",
+    "hanzi": "椰子",
+    "pinyin": "yē zi",
+    "english": "coconut",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:2",
+    "audio": "media/椰子.webm"
+  },
+  {
+    "id": "fruit2_yngto",
+    "hanzi": "樱桃",
+    "pinyin": "yīng táo",
+    "english": "cherry",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:3",
+    "audio": "media/樱桃.webm"
+  },
+  {
+    "id": "fruit2_niyugu",
+    "hanzi": "牛油果",
+    "pinyin": "niú yóu guǒ",
+    "english": "avocado",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:4",
+    "audio": "media/牛油果.webm"
+  },
+  {
+    "id": "fruit2_mhuto",
+    "hanzi": "猕猴桃",
+    "pinyin": "mí hóu táo",
+    "english": "kiwi",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:5",
+    "audio": "media/猕猴桃.webm"
+  },
+  {
+    "id": "fruit2_gnln",
+    "hanzi": "橄榄",
+    "pinyin": "gǎn lǎn",
+    "english": "olive",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:6",
+    "audio": "media/橄榄.webm"
+  },
+  {
+    "id": "fruit2_blu",
+    "hanzi": "菠萝",
+    "pinyin": "bō luó",
+    "english": "pineapple",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:7",
+    "audio": "media/菠萝.webm"
+  },
+  {
+    "id": "fruit2_shli",
+    "hanzi": "石榴",
+    "pinyin": "shí liú",
+    "english": "pomegranate",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:8",
+    "audio": "media/石榴.webm"
+  },
+  {
+    "id": "fruit2_fpnz",
+    "hanzi": "覆盆子",
+    "pinyin": "fù pén zǐ",
+    "english": "raspberry",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:9",
+    "audio": "media/覆盆子.webm"
+  },
+  {
+    "id": "fruit2_fnqi",
+    "hanzi": "番茄",
+    "pinyin": "fān qié",
+    "english": "tomato",
+    "category": "fruit2",
+    "frame": "Fruit2:Default:10",
+    "audio": "media/番茄.webm"
+  },
+  {
+    "id": "meat_niru",
+    "hanzi": "牛肉",
+    "pinyin": "niú ròu",
+    "english": "beef",
+    "category": "meat",
+    "frame": "Meat:Default:0",
+    "audio": "media/牛肉.webm"
+  },
+  {
+    "id": "meat_zhru",
+    "hanzi": "猪肉",
+    "pinyin": "zhū ròu",
+    "english": "pork",
+    "category": "meat",
+    "frame": "Meat:Default:1",
+    "audio": "media/猪肉.webm"
+  },
+  {
+    "id": "meat_jru",
+    "hanzi": "鸡肉",
+    "pinyin": "jī ròu",
+    "english": "chicken",
+    "category": "meat",
+    "frame": "Meat:Default:2",
+    "audio": "media/鸡肉.webm"
+  },
+  {
+    "id": "meat_hujru",
+    "hanzi": "火鸡肉",
+    "pinyin": "huǒ jī ròu",
+    "english": "turkey",
+    "category": "meat",
+    "frame": "Meat:Default:3",
+    "audio": "media/火鸡肉.webm"
+  },
+  {
+    "id": "meat_yru",
+    "hanzi": "鸭肉",
+    "pinyin": "yā ròu",
+    "english": "duck",
+    "category": "meat",
+    "frame": "Meat:Default:4",
+    "audio": "media/鸭肉.webm"
+  },
+  {
+    "id": "meat_shnyngru",
+    "hanzi": "山羊肉",
+    "pinyin": "shān yáng ròu",
+    "english": "goat",
+    "category": "meat",
+    "frame": "Meat:Default:5",
+    "audio": "media/山羊肉.webm"
+  },
+  {
+    "id": "meat_yngru",
+    "hanzi": "羊肉",
+    "pinyin": "yáng ròu",
+    "english": "lamb",
+    "category": "meat",
+    "frame": "Meat:Default:6",
+    "audio": "media/羊肉.webm"
+  },
+  {
+    "id": "meat_tru",
+    "hanzi": "兔肉",
+    "pinyin": "tù ròu",
+    "english": "rabbit",
+    "category": "meat",
+    "frame": "Meat:Default:7",
+    "audio": "media/兔肉.webm"
+  },
+  {
+    "id": "seafood_y",
+    "hanzi": "鱼",
+    "pinyin": "yú",
+    "english": "fish",
+    "category": "seafood",
+    "frame": "Seafood:Default:0",
+    "audio": "media/鱼.webm"
+  },
+  {
+    "id": "seafood_xi",
+    "hanzi": "虾",
+    "pinyin": "xiā",
+    "english": "shrimp",
+    "category": "seafood",
+    "frame": "Seafood:Default:1",
+    "audio": "media/虾.webm"
+  },
+  {
+    "id": "seafood_pngxi",
+    "hanzi": "螃蟹",
+    "pinyin": "páng xiè",
+    "english": "crab",
+    "category": "seafood",
+    "frame": "Seafood:Default:2",
+    "audio": "media/螃蟹.webm"
+  },
+  {
+    "id": "seafood_lngxi",
+    "hanzi": "龙虾",
+    "pinyin": "lóng xiā",
+    "english": "lobster",
+    "category": "seafood",
+    "frame": "Seafood:Default:3",
+    "audio": "media/龙虾.webm"
+  },
+  {
+    "id": "seafood_zhngy",
+    "hanzi": "章鱼",
+    "pinyin": "zhāng yú",
+    "english": "octopus",
+    "category": "seafood",
+    "frame": "Seafood:Default:4",
+    "audio": "media/章鱼.webm"
+  },
+  {
+    "id": "seafood_ml",
+    "hanzi": "牡蛎",
+    "pinyin": "mǔ lì",
+    "english": "oyster",
+    "category": "seafood",
+    "frame": "Seafood:Default:5",
+    "audio": "media/牡蛎.webm"
+  },
+  {
+    "id": "seafood_yuy",
+    "hanzi": "鱿鱼",
+    "pinyin": "yóu yú",
+    "english": "squid",
+    "category": "seafood",
+    "frame": "Seafood:Default:6",
+    "audio": "media/鱿鱼.webm"
+  },
+  {
+    "id": "seafood_wgu",
+    "hanzi": "乌龟",
+    "pinyin": "wū guī",
+    "english": "turtle",
+    "category": "seafood",
+    "frame": "Seafood:Default:7",
+    "audio": "media/乌龟.webm"
+  },
+  {
+    "id": "snacks_hnbobo",
+    "hanzi": "汉堡包",
+    "pinyin": "hàn bǎo bāo",
+    "english": "hamburger",
+    "category": "snacks",
+    "frame": "Snacks:Default:0",
+    "audio": "media/汉堡包.webm"
+  },
+  {
+    "id": "snacks_zhshtio",
+    "hanzi": "炸薯条",
+    "pinyin": "zhá shǔ tiáo",
+    "english": "french fries",
+    "category": "snacks",
+    "frame": "Snacks:Default:1",
+    "audio": "media/炸薯条.webm"
+  },
+  {
+    "id": "snacks_rgu",
+    "hanzi": "热狗",
+    "pinyin": "rè gǒu",
+    "english": "hot dog",
+    "category": "snacks",
+    "frame": "Snacks:Default:2",
+    "audio": "media/热狗.webm"
+  },
+  {
+    "id": "snacks_mintio",
+    "hanzi": "面条",
+    "pinyin": "miàn tiáo",
+    "english": "noodles",
+    "category": "snacks",
+    "frame": "Snacks:Default:3",
+    "audio": "media/面条.webm"
+  },
+  {
+    "id": "snacks_bs",
+    "hanzi": "比萨",
+    "pinyin": "bǐ sà",
+    "english": "pizza",
+    "category": "snacks",
+    "frame": "Snacks:Default:4",
+    "audio": "media/比萨.webm"
+  },
+  {
+    "id": "snacks_bomhu",
+    "hanzi": "爆米花",
+    "pinyin": "bào mǐ huā",
+    "english": "popcorn",
+    "category": "snacks",
+    "frame": "Snacks:Default:5",
+    "audio": "media/爆米花.webm"
+  },
+  {
+    "id": "snacks_jioynjunbng",
+    "hanzi": "椒盐卷饼",
+    "pinyin": "jiāo yán juǎn bǐng",
+    "english": "pretzel",
+    "category": "snacks",
+    "frame": "Snacks:Default:6",
+    "audio": "media/椒盐卷饼.webm"
+  },
+  {
+    "id": "snacks_snmngzh",
+    "hanzi": "三明治",
+    "pinyin": "sān míng zhì",
+    "english": "sandwich",
+    "category": "snacks",
+    "frame": "Snacks:Default:7",
+    "audio": "media/三明治.webm"
+  },
+  {
+    "id": "snacks_shus",
+    "hanzi": "寿司",
+    "pinyin": "shòu sī",
+    "english": "sushi",
+    "category": "snacks",
+    "frame": "Snacks:Default:8",
+    "audio": "media/寿司.webm"
+  },
+  {
+    "id": "sweets_tintinqun",
+    "hanzi": "甜甜圈",
+    "pinyin": "tián tián quān",
+    "english": "donut",
+    "category": "sweets",
+    "frame": "Sweets:Default:0",
+    "audio": "media/甜甜圈.webm"
+  },
+  {
+    "id": "sweets_bixngbng",
+    "hanzi": "杯形饼",
+    "pinyin": "bēi xíng bǐng",
+    "english": "cupcake",
+    "category": "sweets",
+    "frame": "Sweets:Default:1",
+    "audio": "media/杯形饼.webm"
+  },
+  {
+    "id": "sweets_tnggu",
+    "hanzi": "糖果",
+    "pinyin": "táng guǒ",
+    "english": "candy",
+    "category": "sweets",
+    "frame": "Sweets:Default:2",
+    "audio": "media/糖果.webm"
+  },
+  {
+    "id": "sweets_dngo",
+    "hanzi": "蛋糕",
+    "pinyin": "dàn gāo",
+    "english": "cake",
+    "category": "sweets",
+    "frame": "Sweets:Default:3",
+    "audio": "media/蛋糕.webm"
+  },
+  {
+    "id": "sweets_qiokl",
+    "hanzi": "巧克力",
+    "pinyin": "qiǎo kè lì",
+    "english": "chocolate",
+    "category": "sweets",
+    "frame": "Sweets:Default:4",
+    "audio": "media/巧克力.webm"
+  },
+  {
+    "id": "sweets_bngqln",
+    "hanzi": "冰淇淋",
+    "pinyin": "bīng qí lín",
+    "english": "ice cream",
+    "category": "sweets",
+    "frame": "Sweets:Default:5",
+    "audio": "media/冰淇淋.webm"
+  },
+  {
+    "id": "sweets_bngtng",
+    "hanzi": "棒糖",
+    "pinyin": "bàng táng",
+    "english": "lollipop",
+    "category": "sweets",
+    "frame": "Sweets:Default:6",
+    "audio": "media/棒糖.webm"
+  },
+  {
+    "id": "sweets_bnggn",
+    "hanzi": "饼干",
+    "pinyin": "bǐng gān",
+    "english": "cookie",
+    "category": "sweets",
+    "frame": "Sweets:Default:7",
+    "audio": "media/饼干.webm"
+  },
+  {
+    "id": "sweets_xinbng",
+    "hanzi": "馅饼",
+    "pinyin": "xiàn bǐng",
+    "english": "pie",
+    "category": "sweets",
+    "frame": "Sweets:Default:8",
+    "audio": "media/馅饼.webm"
+  },
+  {
+    "id": "veggies1_xlnhu",
+    "hanzi": "西兰花",
+    "pinyin": "xī lán huā",
+    "english": "broccoli",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:0",
+    "audio": "media/西兰花.webm"
+  },
+  {
+    "id": "veggies1_hlubo",
+    "hanzi": "胡萝卜",
+    "pinyin": "hú luó bo",
+    "english": "carrot",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:1",
+    "audio": "media/胡萝卜.webm"
+  },
+  {
+    "id": "veggies1_ym",
+    "hanzi": "玉米",
+    "pinyin": "yù mǐ",
+    "english": "corn",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:2",
+    "audio": "media/玉米.webm"
+  },
+  {
+    "id": "veggies1_hunggu",
+    "hanzi": "黄瓜",
+    "pinyin": "huáng guā",
+    "english": "cucumber",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:3",
+    "audio": "media/黄瓜.webm"
+  },
+  {
+    "id": "veggies1_yngcng",
+    "hanzi": "洋葱",
+    "pinyin": "yáng cōng",
+    "english": "onion",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:4",
+    "audio": "media/洋葱.webm"
+  },
+  {
+    "id": "veggies1_tdu",
+    "hanzi": "土豆",
+    "pinyin": "tǔ dòu",
+    "english": "potato",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:5",
+    "audio": "media/土豆.webm"
+  },
+  {
+    "id": "veggies1_ljio",
+    "hanzi": "辣椒",
+    "pinyin": "là jiāo",
+    "english": "chili pepper",
+    "category": "veggies1",
+    "frame": "Veggies1:Default:6",
+    "audio": "media/辣椒.webm"
+  },
+  {
+    "id": "veggies2_mgu",
+    "hanzi": "蘑菇",
+    "pinyin": "mó gu",
+    "english": "mushroom",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:0",
+    "audio": "media/蘑菇.webm"
+  },
+  {
+    "id": "veggies2_dsun",
+    "hanzi": "大蒜",
+    "pinyin": "dà suàn",
+    "english": "garlic",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:1",
+    "audio": "media/大蒜.webm"
+  },
+  {
+    "id": "veggies2_qizi",
+    "hanzi": "茄子",
+    "pinyin": "qié zi",
+    "english": "eggplant",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:2",
+    "audio": "media/茄子.webm"
+  },
+  {
+    "id": "veggies2_xinrnzhng",
+    "hanzi": "仙人掌",
+    "pinyin": "xiān rén zhǎng",
+    "english": "cactus",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:3",
+    "audio": "media/仙人掌.webm"
+  },
+  {
+    "id": "veggies2_shngci",
+    "hanzi": "生菜",
+    "pinyin": "shēng cài",
+    "english": "lettuce",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:4",
+    "audio": "media/生菜.webm"
+  },
+  {
+    "id": "veggies2_hushng",
+    "hanzi": "花生",
+    "pinyin": "huā shēng",
+    "english": "peanut",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:5",
+    "audio": "media/花生.webm"
+  },
+  {
+    "id": "veggies2_mfn",
+    "hanzi": "米饭",
+    "pinyin": "mǐ fàn",
+    "english": "rice",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:6",
+    "audio": "media/米饭.webm"
+  },
+  {
+    "id": "veggies2_sh",
+    "hanzi": "薯",
+    "pinyin": "shǔ",
+    "english": "sweet potato",
+    "category": "veggies2",
+    "frame": "Veggies2:Default:7",
+    "audio": "media/薯.webm"
+  }
+]

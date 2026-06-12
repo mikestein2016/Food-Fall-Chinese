@@ -1,0 +1,210 @@
+[
+  {
+    "id": "breakfast",
+    "spriteType": "Breakfast",
+    "anim": "Default",
+    "displayName": "Breakfast",
+    "highScoreKey": "zh_HSBreakfast",
+    "icon": "UIBreakfast",
+    "iconFrame": "UIBreakfast:Default:0",
+    "iconSelectedFrame": "UIBreakfast:Default:1",
+    "wordIds": [
+      "breakfast_bojinbng",
+      "breakfast_wihubng",
+      "breakfast_xnru",
+      "breakfast_niyu",
+      "breakfast_nilo",
+      "breakfast_jdn",
+      "breakfast_minbo",
+      "breakfast_fngm"
+    ]
+  },
+  {
+    "id": "drinks",
+    "spriteType": "Drinks",
+    "anim": "Default",
+    "displayName": "Drinks",
+    "highScoreKey": "zh_HSDrinks",
+    "icon": "UIDrinks",
+    "iconFrame": "UIDrinks:Default:0",
+    "iconSelectedFrame": "UIDrinks:Default:1",
+    "wordIds": [
+      "drinks_guzh",
+      "drinks_pji",
+      "drinks_xingbnji",
+      "drinks_jwiji",
+      "drinks_kfi",
+      "drinks_nini",
+      "drinks_kl",
+      "drinks_lch",
+      "drinks_shu",
+      "drinks_ptoji"
+    ]
+  },
+  {
+    "id": "fruit1",
+    "spriteType": "Fruit1",
+    "anim": "Fruit",
+    "displayName": "Fruit",
+    "highScoreKey": "zh_HSFruit1",
+    "icon": "UIFruit",
+    "iconFrame": "UIFruit:Fruit:0",
+    "iconSelectedFrame": "UIFruit:Fruit:0",
+    "wordIds": [
+      "fruit1_pnggu",
+      "fruit1_jzi",
+      "fruit1_xingjio",
+      "fruit1_comi",
+      "fruit1_lnmi",
+      "fruit1_lzi",
+      "fruit1_tozi",
+      "fruit1_xgu",
+      "fruit1_mnggu",
+      "fruit1_pto"
+    ]
+  },
+  {
+    "id": "fruit2",
+    "spriteType": "Fruit2",
+    "anim": "Default",
+    "displayName": "Fruit 2",
+    "highScoreKey": "zh_HSFruit2",
+    "icon": "UIFruit2",
+    "iconFrame": "UIFruit2:Default:0",
+    "iconSelectedFrame": "UIFruit2:Default:1",
+    "wordIds": [
+      "fruit2_gu",
+      "fruit2_nngmng",
+      "fruit2_yzi",
+      "fruit2_yngto",
+      "fruit2_niyugu",
+      "fruit2_mhuto",
+      "fruit2_gnln",
+      "fruit2_blu",
+      "fruit2_shli",
+      "fruit2_fpnz",
+      "fruit2_fnqi"
+    ]
+  },
+  {
+    "id": "meat",
+    "spriteType": "Meat",
+    "anim": "Default",
+    "displayName": "Meat",
+    "highScoreKey": "zh_HSMeat",
+    "icon": "UIMeat",
+    "iconFrame": "UIMeat:Default:0",
+    "iconSelectedFrame": "UIMeat:Default:1",
+    "wordIds": [
+      "meat_niru",
+      "meat_zhru",
+      "meat_jru",
+      "meat_hujru",
+      "meat_yru",
+      "meat_shnyngru",
+      "meat_yngru",
+      "meat_tru"
+    ]
+  },
+  {
+    "id": "seafood",
+    "spriteType": "Seafood",
+    "anim": "Default",
+    "displayName": "Seafood",
+    "highScoreKey": "zh_HSSeafood",
+    "icon": "UISeafood",
+    "iconFrame": "UISeafood:Default:0",
+    "iconSelectedFrame": "UISeafood:Default:1",
+    "wordIds": [
+      "seafood_y",
+      "seafood_xi",
+      "seafood_pngxi",
+      "seafood_lngxi",
+      "seafood_zhngy",
+      "seafood_ml",
+      "seafood_yuy",
+      "seafood_wgu"
+    ]
+  },
+  {
+    "id": "snacks",
+    "spriteType": "Snacks",
+    "anim": "Default",
+    "displayName": "Snacks",
+    "highScoreKey": "zh_HSSnacks",
+    "icon": "UISnacks",
+    "iconFrame": "UISnacks:Default:0",
+    "iconSelectedFrame": "UISnacks:Default:1",
+    "wordIds": [
+      "snacks_hnbobo",
+      "snacks_zhshtio",
+      "snacks_rgu",
+      "snacks_mintio",
+      "snacks_bs",
+      "snacks_bomhu",
+      "snacks_jioynjunbng",
+      "snacks_snmngzh",
+      "snacks_shus"
+    ]
+  },
+  {
+    "id": "sweets",
+    "spriteType": "Sweets",
+    "anim": "Default",
+    "displayName": "Sweets",
+    "highScoreKey": "zh_HSSweets",
+    "icon": "UISweets",
+    "iconFrame": "UISweets:Default:0",
+    "iconSelectedFrame": "UISweets:Default:1",
+    "wordIds": [
+      "sweets_tintinqun",
+      "sweets_bixngbng",
+      "sweets_tnggu",
+      "sweets_dngo",
+      "sweets_qiokl",
+      "sweets_bngqln",
+      "sweets_bngtng",
+      "sweets_bnggn",
+      "sweets_xinbng"
+    ]
+  },
+  {
+    "id": "veggies1",
+    "spriteType": "Veggies1",
+    "anim": "Default",
+    "displayName": "Vegetables",
+    "highScoreKey": "zh_HSVeggies1",
+    "icon": "UIVeggies1",
+    "iconFrame": "UIVeggies1:Default:0",
+    "iconSelectedFrame": "UIVeggies1:Default:1",
+    "wordIds": [
+      "veggies1_xlnhu",
+      "veggies1_hlubo",
+      "veggies1_ym",
+      "veggies1_hunggu",
+      "veggies1_yngcng",
+      "veggies1_tdu",
+      "veggies1_ljio"
+    ]
+  },
+  {
+    "id": "veggies2",
+    "spriteType": "Veggies2",
+    "anim": "Default",
+    "displayName": "Vegetables 2",
+    "highScoreKey": "zh_HSVeggies2",
+    "icon": "UIVeggies2",
+    "iconFrame": "UIVeggies2:Default:0",
+    "iconSelectedFrame": "UIVeggies2:Default:1",
+    "wordIds": [
+      "veggies2_mgu",
+      "veggies2_dsun",
+      "veggies2_qizi",
+      "veggies2_xinrnzhng",
+      "veggies2_shngci",
+      "veggies2_hushng",
+      "veggies2_mfn",
+      "veggies2_sh"
+    ]
+  }
+]
