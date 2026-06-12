@@ -76,7 +76,9 @@ export class StageSelectScene extends Phaser.Scene {
     });
     makeButton(this, 435, 45, {
       frame: "ButtonSettings:Default:0", width: 56, height: 56,
-      onClick: () => undefined, // settings overlay ported later
+      onClick: () => this.scene.start("Settings", {
+        returnScene: "StageSelect", returnData: { categoryId: this.current().id },
+      }),
     });
 
     this.setupSwipe();

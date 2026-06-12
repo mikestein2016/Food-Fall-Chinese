@@ -57,7 +57,9 @@ export class PlayScene extends Phaser.Scene {
     });
     makeButton(this, 435, 45, {
       frame: "ButtonSettings:Default:0", width: 56, height: 56,
-      onClick: () => undefined,
+      onClick: () => this.scene.start("Settings", {
+        returnScene: "Play", returnData: { categoryId: this.category.id },
+      }),
     });
 
     this.speakButton = makeButton(this, VIEWPORT.width / 2, 808, {

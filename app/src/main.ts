@@ -5,6 +5,7 @@ import { TitleScene } from "./scenes/TitleScene";
 import { StageSelectScene } from "./scenes/StageSelectScene";
 import { StudyScene } from "./scenes/StudyScene";
 import { PlayScene } from "./scenes/PlayScene";
+import { SettingsScene } from "./scenes/SettingsScene";
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -20,7 +21,7 @@ const config: Phaser.Types.Core.GameConfig = {
     default: "matter",
     matter: { gravity: { x: 0, y: 1 }, debug: false },
   },
-  scene: [BootScene, TitleScene, StageSelectScene, StudyScene, PlayScene],
+  scene: [BootScene, TitleScene, StageSelectScene, StudyScene, PlayScene, SettingsScene],
 };
 
 // Expose the game instance so the verification harness can introspect state.

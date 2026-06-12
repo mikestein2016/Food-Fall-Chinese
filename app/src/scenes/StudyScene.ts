@@ -5,6 +5,7 @@ import { makeButton } from "../ui/button";
 import { wordsForCategory, type Word } from "../content/data";
 import { playWordAudio, playSfx, speak } from "../audio/audio";
 import { recognizeOnce, transcriptMatches, type RecognitionHandle } from "../audio/recognition";
+import { loadSettings, type Settings } from "../content/settings";
 
 const BG = 0x1e50a0;
 
@@ -15,6 +16,8 @@ export class StudyScene extends Phaser.Scene {
   private categoryId = "fruit1";
   private words: Word[] = [];
   private index = 0;
+  private settings!: Settings;
+  private wordRevealed = false;
   private listening?: RecognitionHandle;
 
   private hanziText!: Phaser.GameObjects.Text;
@@ -34,6 +37,7 @@ export class StudyScene extends Phaser.Scene {
   create(): void {
     this.cameras.main.setBackgroundColor(BG);
     this.words = wordsForCategory(this.categoryId);
+    this.settings = loadSettings();
 
     this.hanziText = this.add
       .text(VIEWPORT.width / 2, 200, "", {
@@ -82,7 +86,9 @@ export class StudyScene extends Phaser.Scene {
     });
     makeButton(this, 435, 45, {
       frame: "ButtonSettings:Default:0", width: 56, height: 56,
-      onClick: () => undefined,
+      onClick: () => this.scene.start("Settings", {
+        returnScene: "Study", returnData: { categoryId: this.categoryId },
+      }),
     });
 
     this.showWord();
@@ -95,10 +101,19 @@ export class StudyScene extends Phaser.Scene {
 
   private showWord(): void {
     const w = this.current();
-    this.hanziText.setText(w.hanzi);
-    this.pinyinText.setText(w.pinyin);
+    // "Tap to see words" hides the word until you tap to hear it (memory test).
+    this.wordRevealed = !this.settings.tapToSeeWords;
     setFrame(this.foodImage, w.frame);
     this.foodImage.setDisplaySize(150, 150);
+    this.renderWordText();
+  }
+
+  private renderWordText(): void {
+    const w = this.current();
+    this.hanziText.setText(this.wordRevealed ? w.hanzi : "？？");
+    this.pinyinText.setText(
+      this.wordRevealed && this.settings.showPinyin ? w.pinyin : "",
+    );
   }
 
   private navigate(delta: number): void {
@@ -110,6 +125,9 @@ export class StudyScene extends Phaser.Scene {
 
   private hearWord(): void {
     const w = this.current();
+    this.wordRevealed = true; // tapping reveals a hidden word
+    this.renderWordText();
+    if (!this.settings.soundEffects) return;
     playWordAudio(w);
     speak(w.hanzi); // TTS fallback if the recording is unavailable
   }

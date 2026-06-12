@@ -33,6 +33,7 @@ const SCENES: Array<{ name: string; query: string }> = [
   { name: "stageselect-locked", query: "scene=StageSelect&category=fruit2&static=1" },
   { name: "study", query: "scene=Study&category=fruit1&static=1" },
   { name: "play", query: "scene=Play&category=fruit1&static=1" },
+  { name: "settings", query: "scene=Settings&static=1" },
 ];
 
 async function shootNewApp(browser: Browser): Promise<void> {
