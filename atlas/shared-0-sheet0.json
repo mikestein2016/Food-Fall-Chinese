@@ -1,0 +1,168 @@
+{
+  "frames": {
+    "FoodSlider:Animation 1:0": {
+      "frame": {
+        "x": 621,
+        "y": 513,
+        "w": 250,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 250
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 250
+      }
+    },
+    "RecordSpace:Animation 1:0": {
+      "frame": {
+        "x": 621,
+        "y": 513,
+        "w": 250,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 250
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 250
+      }
+    },
+    "SpeakSpace:Animation 1:0": {
+      "frame": {
+        "x": 621,
+        "y": 513,
+        "w": 250,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 250
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 250
+      }
+    },
+    "ButtonBack:Default:0": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 618,
+        "h": 618
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 618,
+        "h": 618
+      },
+      "sourceSize": {
+        "w": 618,
+        "h": 618
+      }
+    },
+    "Deadline:Animation 1:0": {
+      "frame": {
+        "x": 513,
+        "y": 769,
+        "w": 250,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 250
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 250
+      }
+    },
+    "UnlockBG:Animation 1:0": {
+      "frame": {
+        "x": 513,
+        "y": 769,
+        "w": 250,
+        "h": 250
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 250
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 250
+      }
+    },
+    "ButtonRecord:TapToSpeak:0": {
+      "frame": {
+        "x": 897,
+        "y": 1,
+        "w": 402,
+        "h": 122
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 402,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 402,
+        "h": 122
+      }
+    },
+    "ButtonRecord:Listening:0": {
+      "frame": {
+        "x": 897,
+        "y": 513,
+        "w": 402,
+        "h": 122
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 402,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 402,
+        "h": 122
+      }
+    }
+  },
+  "meta": {
+    "image": "shared-0-sheet0.webp",
+    "scale": 1
+  }
+}
