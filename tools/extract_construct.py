@@ -55,6 +55,7 @@ def decode_animations(anim_container):
         for fr in a[7]:
             frames.append({
                 "sheet": fr[0], "x": fr[2], "y": fr[3], "w": fr[4], "h": fr[5],
+                "rotated": bool(fr[6]),  # Construct packs some frames rotated 90°
                 "originX": fr[8], "originY": fr[9], "tag": fr[12] if len(fr) > 12 else "",
             })
         out.append({"name": a[0], "speed": a[1], "loop": bool(a[2]), "frames": frames})
@@ -114,22 +115,42 @@ def emit_app_content(data):
     are passed through (positions). These are generated artifacts — never edit by
     hand; re-run this script instead."""
     app_dir = os.path.join(ROOT, "app", "src", "content")
+    atlas_dir = os.path.join(ROOT, "app", "public", "atlas")
     os.makedirs(app_dir, exist_ok=True)
+    os.makedirs(atlas_dir, exist_ok=True)
 
-    atlas = {}  # sheet -> { frameName: {x,y,w,h,originX,originY} }
+    # TexturePacker JSON-Hash atlas per sheet (Phaser loads these natively and
+    # handles rotated/trimmed frames). Frame name = `Type:anim:index`.
+    sheets = {}  # sheet -> { frameName: {frame, rotated, sourceSize, ...} }
+    index = {}   # frameName -> sheet (for app lookups)
+    origins = {}  # frameName -> [ox, oy]
     for t in data["objectTypes"]:
         if not t["animations"]:
             continue
         for a in t["animations"]:
             for i, fr in enumerate(a["frames"]):
                 sheet = os.path.splitext(os.path.basename(fr["sheet"]))[0]
-                atlas.setdefault(sheet, {})
                 name = f'{t["name"]}:{a["name"]}:{i}'
-                atlas[sheet][name] = {k: fr[k] for k in ("x", "y", "w", "h", "originX", "originY")}
+                w, h, rot = fr["w"], fr["h"], fr["rotated"]
+                sheets.setdefault(sheet, {})[name] = {
+                    "frame": {"x": fr["x"], "y": fr["y"], "w": w, "h": h},
+                    "rotated": rot, "trimmed": False,
+                    "spriteSourceSize": {"x": 0, "y": 0, "w": w, "h": h},
+                    "sourceSize": {"w": w, "h": h},
+                }
+                index[name] = sheet
+                origins[name] = [fr["originX"], fr["originY"]]
 
-    sheets = {s: f"images/{s}.webp" for s in atlas}
+    for sheet, frames in sheets.items():
+        tp = {"frames": frames, "meta": {"image": f"{sheet}.webp", "scale": 1}}
+        with open(os.path.join(atlas_dir, f"{sheet}.json"), "w", encoding="utf-8") as f:
+            json.dump(tp, f, ensure_ascii=False, indent=2)
+
+    rotated = [name for s in sheets.values() for name, fr in s.items() if fr["rotated"]]
+    manifest = {"sheets": {s: f"images/{s}.webp" for s in sheets},
+                "index": index, "origins": origins, "rotated": rotated}
     with open(os.path.join(app_dir, "atlas.generated.json"), "w", encoding="utf-8") as f:
-        json.dump({"sheets": sheets, "frames": atlas}, f, ensure_ascii=False, indent=2)
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
     with open(os.path.join(app_dir, "layouts.generated.json"), "w", encoding="utf-8") as f:
         json.dump(data["layouts"], f, ensure_ascii=False, indent=2)
     with open(os.path.join(app_dir, "media.generated.json"), "w", encoding="utf-8") as f:

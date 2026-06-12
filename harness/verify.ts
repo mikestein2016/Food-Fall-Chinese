@@ -34,7 +34,8 @@ async function shootNewApp(browser: Browser): Promise<void> {
     logLevel: "warn",
   });
   await server.listen();
-  const url = `http://localhost:5180/`;
+  // ?static disables nondeterministic spawning for stable A/B screenshots.
+  const url = `http://localhost:5180/?static=1`;
   try {
     const page = await newPage(browser);
     const errors = captureErrors(page);

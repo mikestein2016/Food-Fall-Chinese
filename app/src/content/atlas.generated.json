@@ -12,1060 +12,662 @@
     "veggies2-sheet0": "images/veggies2-sheet0.webp",
     "shared-0-sheet0": "images/shared-0-sheet0.webp"
   },
-  "frames": {
-    "shared-0-sheet1": {
-      "UIBreakfast:Default:0": {
-        "x": 369,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIBreakfast:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIDrinks:Default:0": {
-        "x": 629,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIDrinks:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIFruit:Fruit:0": {
-        "x": 759,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIFruit2:Default:0": {
-        "x": 889,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIFruit2:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIMeat:Default:0": {
-        "x": 369,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIMeat:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISeafood:Default:0": {
-        "x": 499,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISeafood:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISnacks:Default:0": {
-        "x": 629,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISnacks:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISweets:Default:0": {
-        "x": 759,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UISweets:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIVeggies1:Default:0": {
-        "x": 889,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIVeggies1:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIVeggies2:Default:0": {
-        "x": 1,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIVeggies2:Default:1": {
-        "x": 499,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:0": {
-        "x": 369,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:0": {
-        "x": 499,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:0": {
-        "x": 369,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:0": {
-        "x": 629,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:0": {
-        "x": 759,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:0": {
-        "x": 889,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:0": {
-        "x": 629,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:0": {
-        "x": 759,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:0": {
-        "x": 889,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:1": {
-        "x": 391,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:2": {
-        "x": 521,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:3": {
-        "x": 651,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:4": {
-        "x": 781,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:5": {
-        "x": 1,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies1:Default:6": {
-        "x": 131,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:0": {
-        "x": 1,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Donut:Default:0": {
-        "x": 131,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Medal:Default:0": {
-        "x": 261,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "arrow:Default:0": {
-        "x": 1,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonSettings:Default:0": {
-        "x": 391,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "check:Default:0": {
-        "x": 521,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Toggle:Default:0": {
-        "x": 651,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Toggle:Default:1": {
-        "x": 781,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "OpenMoji:Default:0": {
-        "x": 261,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonPlay:Default:0": {
-        "x": 185,
-        "y": 1,
-        "w": 252,
-        "h": 90,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonPlay:Down:0": {
-        "x": 277,
-        "y": 1,
-        "w": 252,
-        "h": 90,
-        "originX": 0.6349206349206349,
-        "originY": 1.4055555555555554
-      },
-      "ButtonStudy:Default:0": {
-        "x": 1,
-        "y": 1,
-        "w": 252,
-        "h": 90,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonStudy:Down:0": {
-        "x": 93,
-        "y": 1,
-        "w": 252,
-        "h": 90,
-        "originX": 0,
-        "originY": 0
-      },
-      "UIRandom:Default:0": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UIRandom:Default:1": {
-        "x": 261,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "meat-sheet0": {
-      "Meat:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:5": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Meat:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "seafood-sheet0": {
-      "Seafood:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:5": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Seafood:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "breakfast-sheet0": {
-      "Breakfast:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:5": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Breakfast:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "drinks-sheet0": {
-      "Drinks:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:5": {
-        "x": 131,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:6": {
-        "x": 261,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:8": {
-        "x": 131,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Drinks:Default:9": {
-        "x": 261,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "fruit1-sheet0": {
-      "Fruit1:Fruit:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:5": {
-        "x": 131,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:7": {
-        "x": 391,
-        "y": 385,
-        "w": 93,
-        "h": 92,
-        "originX": 0.5913978494623656,
-        "originY": 0.40217391304347827
-      },
-      "Fruit1:Fruit:8": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit1:Fruit:9": {
-        "x": 131,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "fruit2-sheet0": {
-      "Fruit2:Default:1": {
-        "x": 1,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:2": {
-        "x": 261,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:3": {
-        "x": 131,
-        "y": 769,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:4": {
-        "x": 1,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:5": {
-        "x": 261,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:6": {
-        "x": 131,
-        "y": 513,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:7": {
-        "x": 1,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:8": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:9": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Fruit2:Default:10": {
-        "x": 257,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "snacks-sheet0": {
-      "Snacks:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:5": {
-        "x": 131,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Snacks:Default:8": {
-        "x": 131,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "sweets-sheet0": {
-      "Sweets:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:5": {
-        "x": 131,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Sweets:Default:8": {
-        "x": 131,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "veggies2-sheet0": {
-      "Veggies2:Default:1": {
-        "x": 1,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:2": {
-        "x": 131,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:3": {
-        "x": 261,
-        "y": 1,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:4": {
-        "x": 1,
-        "y": 131,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:5": {
-        "x": 131,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:6": {
-        "x": 261,
-        "y": 257,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Veggies2:Default:7": {
-        "x": 1,
-        "y": 261,
-        "w": 128,
-        "h": 128,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    },
-    "shared-0-sheet0": {
-      "FoodSlider:Animation 1:0": {
-        "x": 621,
-        "y": 513,
-        "w": 250,
-        "h": 250,
-        "originX": 0,
-        "originY": 0.5
-      },
-      "RecordSpace:Animation 1:0": {
-        "x": 621,
-        "y": 513,
-        "w": 250,
-        "h": 250,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "SpeakSpace:Animation 1:0": {
-        "x": 621,
-        "y": 513,
-        "w": 250,
-        "h": 250,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonBack:Default:0": {
-        "x": 1,
-        "y": 1,
-        "w": 618,
-        "h": 618,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "Deadline:Animation 1:0": {
-        "x": 513,
-        "y": 769,
-        "w": 250,
-        "h": 250,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "UnlockBG:Animation 1:0": {
-        "x": 513,
-        "y": 769,
-        "w": 250,
-        "h": 250,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonRecord:TapToSpeak:0": {
-        "x": 897,
-        "y": 1,
-        "w": 402,
-        "h": 122,
-        "originX": 0.5,
-        "originY": 0.5
-      },
-      "ButtonRecord:Listening:0": {
-        "x": 897,
-        "y": 513,
-        "w": 402,
-        "h": 122,
-        "originX": 0.5,
-        "originY": 0.5
-      }
-    }
-  }
+  "index": {
+    "UIBreakfast:Default:0": "shared-0-sheet1",
+    "UIBreakfast:Default:1": "shared-0-sheet1",
+    "UIDrinks:Default:0": "shared-0-sheet1",
+    "UIDrinks:Default:1": "shared-0-sheet1",
+    "UIFruit:Fruit:0": "shared-0-sheet1",
+    "UIFruit2:Default:0": "shared-0-sheet1",
+    "UIFruit2:Default:1": "shared-0-sheet1",
+    "UIMeat:Default:0": "shared-0-sheet1",
+    "UIMeat:Default:1": "shared-0-sheet1",
+    "UISeafood:Default:0": "shared-0-sheet1",
+    "UISeafood:Default:1": "shared-0-sheet1",
+    "UISnacks:Default:0": "shared-0-sheet1",
+    "UISnacks:Default:1": "shared-0-sheet1",
+    "UISweets:Default:0": "shared-0-sheet1",
+    "UISweets:Default:1": "shared-0-sheet1",
+    "UIVeggies1:Default:0": "shared-0-sheet1",
+    "UIVeggies1:Default:1": "shared-0-sheet1",
+    "UIVeggies2:Default:0": "shared-0-sheet1",
+    "UIVeggies2:Default:1": "shared-0-sheet1",
+    "Meat:Default:0": "shared-0-sheet1",
+    "Meat:Default:1": "meat-sheet0",
+    "Meat:Default:2": "meat-sheet0",
+    "Meat:Default:3": "meat-sheet0",
+    "Meat:Default:4": "meat-sheet0",
+    "Meat:Default:5": "meat-sheet0",
+    "Meat:Default:6": "meat-sheet0",
+    "Meat:Default:7": "meat-sheet0",
+    "Seafood:Default:0": "shared-0-sheet1",
+    "Seafood:Default:1": "seafood-sheet0",
+    "Seafood:Default:2": "seafood-sheet0",
+    "Seafood:Default:3": "seafood-sheet0",
+    "Seafood:Default:4": "seafood-sheet0",
+    "Seafood:Default:5": "seafood-sheet0",
+    "Seafood:Default:6": "seafood-sheet0",
+    "Seafood:Default:7": "seafood-sheet0",
+    "Breakfast:Default:0": "shared-0-sheet1",
+    "Breakfast:Default:1": "breakfast-sheet0",
+    "Breakfast:Default:2": "breakfast-sheet0",
+    "Breakfast:Default:3": "breakfast-sheet0",
+    "Breakfast:Default:4": "breakfast-sheet0",
+    "Breakfast:Default:5": "breakfast-sheet0",
+    "Breakfast:Default:6": "breakfast-sheet0",
+    "Breakfast:Default:7": "breakfast-sheet0",
+    "Drinks:Default:0": "shared-0-sheet1",
+    "Drinks:Default:1": "drinks-sheet0",
+    "Drinks:Default:2": "drinks-sheet0",
+    "Drinks:Default:3": "drinks-sheet0",
+    "Drinks:Default:4": "drinks-sheet0",
+    "Drinks:Default:5": "drinks-sheet0",
+    "Drinks:Default:6": "drinks-sheet0",
+    "Drinks:Default:7": "drinks-sheet0",
+    "Drinks:Default:8": "drinks-sheet0",
+    "Drinks:Default:9": "drinks-sheet0",
+    "Fruit1:Fruit:0": "shared-0-sheet1",
+    "Fruit1:Fruit:1": "fruit1-sheet0",
+    "Fruit1:Fruit:2": "fruit1-sheet0",
+    "Fruit1:Fruit:3": "fruit1-sheet0",
+    "Fruit1:Fruit:4": "fruit1-sheet0",
+    "Fruit1:Fruit:5": "fruit1-sheet0",
+    "Fruit1:Fruit:6": "fruit1-sheet0",
+    "Fruit1:Fruit:7": "fruit1-sheet0",
+    "Fruit1:Fruit:8": "fruit1-sheet0",
+    "Fruit1:Fruit:9": "fruit1-sheet0",
+    "Fruit2:Default:0": "shared-0-sheet1",
+    "Fruit2:Default:1": "fruit2-sheet0",
+    "Fruit2:Default:2": "fruit2-sheet0",
+    "Fruit2:Default:3": "fruit2-sheet0",
+    "Fruit2:Default:4": "fruit2-sheet0",
+    "Fruit2:Default:5": "fruit2-sheet0",
+    "Fruit2:Default:6": "fruit2-sheet0",
+    "Fruit2:Default:7": "fruit2-sheet0",
+    "Fruit2:Default:8": "fruit2-sheet0",
+    "Fruit2:Default:9": "fruit2-sheet0",
+    "Fruit2:Default:10": "fruit2-sheet0",
+    "Snacks:Default:0": "shared-0-sheet1",
+    "Snacks:Default:1": "snacks-sheet0",
+    "Snacks:Default:2": "snacks-sheet0",
+    "Snacks:Default:3": "snacks-sheet0",
+    "Snacks:Default:4": "snacks-sheet0",
+    "Snacks:Default:5": "snacks-sheet0",
+    "Snacks:Default:6": "snacks-sheet0",
+    "Snacks:Default:7": "snacks-sheet0",
+    "Snacks:Default:8": "snacks-sheet0",
+    "Sweets:Default:0": "shared-0-sheet1",
+    "Sweets:Default:1": "sweets-sheet0",
+    "Sweets:Default:2": "sweets-sheet0",
+    "Sweets:Default:3": "sweets-sheet0",
+    "Sweets:Default:4": "sweets-sheet0",
+    "Sweets:Default:5": "sweets-sheet0",
+    "Sweets:Default:6": "sweets-sheet0",
+    "Sweets:Default:7": "sweets-sheet0",
+    "Sweets:Default:8": "sweets-sheet0",
+    "Veggies1:Default:0": "shared-0-sheet1",
+    "Veggies1:Default:1": "shared-0-sheet1",
+    "Veggies1:Default:2": "shared-0-sheet1",
+    "Veggies1:Default:3": "shared-0-sheet1",
+    "Veggies1:Default:4": "shared-0-sheet1",
+    "Veggies1:Default:5": "shared-0-sheet1",
+    "Veggies1:Default:6": "shared-0-sheet1",
+    "Veggies2:Default:0": "shared-0-sheet1",
+    "Veggies2:Default:1": "veggies2-sheet0",
+    "Veggies2:Default:2": "veggies2-sheet0",
+    "Veggies2:Default:3": "veggies2-sheet0",
+    "Veggies2:Default:4": "veggies2-sheet0",
+    "Veggies2:Default:5": "veggies2-sheet0",
+    "Veggies2:Default:6": "veggies2-sheet0",
+    "Veggies2:Default:7": "veggies2-sheet0",
+    "FoodSlider:Animation 1:0": "shared-0-sheet0",
+    "RecordSpace:Animation 1:0": "shared-0-sheet0",
+    "SpeakSpace:Animation 1:0": "shared-0-sheet0",
+    "ButtonBack:Default:0": "shared-0-sheet0",
+    "Donut:Default:0": "shared-0-sheet1",
+    "Deadline:Animation 1:0": "shared-0-sheet0",
+    "UnlockBG:Animation 1:0": "shared-0-sheet0",
+    "Medal:Default:0": "shared-0-sheet1",
+    "arrow:Default:0": "shared-0-sheet1",
+    "ButtonSettings:Default:0": "shared-0-sheet1",
+    "check:Default:0": "shared-0-sheet1",
+    "Toggle:Default:0": "shared-0-sheet1",
+    "Toggle:Default:1": "shared-0-sheet1",
+    "OpenMoji:Default:0": "shared-0-sheet1",
+    "ButtonPlay:Default:0": "shared-0-sheet1",
+    "ButtonPlay:Down:0": "shared-0-sheet1",
+    "ButtonRecord:TapToSpeak:0": "shared-0-sheet0",
+    "ButtonRecord:Listening:0": "shared-0-sheet0",
+    "ButtonStudy:Default:0": "shared-0-sheet1",
+    "ButtonStudy:Down:0": "shared-0-sheet1",
+    "UIRandom:Default:0": "shared-0-sheet1",
+    "UIRandom:Default:1": "shared-0-sheet1"
+  },
+  "origins": {
+    "UIBreakfast:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIBreakfast:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UIDrinks:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIDrinks:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UIFruit:Fruit:0": [
+      0.5,
+      0.5
+    ],
+    "UIFruit2:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIFruit2:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UIMeat:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIMeat:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UISeafood:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UISeafood:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UISnacks:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UISnacks:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UISweets:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UISweets:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UIVeggies1:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIVeggies1:Default:1": [
+      0.5,
+      0.5
+    ],
+    "UIVeggies2:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIVeggies2:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Meat:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Seafood:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Breakfast:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:8": [
+      0.5,
+      0.5
+    ],
+    "Drinks:Default:9": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:0": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:1": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:2": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:3": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:4": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:5": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:6": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:7": [
+      0.5913978494623656,
+      0.40217391304347827
+    ],
+    "Fruit1:Fruit:8": [
+      0.5,
+      0.5
+    ],
+    "Fruit1:Fruit:9": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:8": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:9": [
+      0.5,
+      0.5
+    ],
+    "Fruit2:Default:10": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Snacks:Default:8": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:7": [
+      0.5,
+      0.5
+    ],
+    "Sweets:Default:8": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Veggies1:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:1": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:2": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:3": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:4": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:5": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:6": [
+      0.5,
+      0.5
+    ],
+    "Veggies2:Default:7": [
+      0.5,
+      0.5
+    ],
+    "FoodSlider:Animation 1:0": [
+      0,
+      0.5
+    ],
+    "RecordSpace:Animation 1:0": [
+      0.5,
+      0.5
+    ],
+    "SpeakSpace:Animation 1:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonBack:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Donut:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Deadline:Animation 1:0": [
+      0.5,
+      0.5
+    ],
+    "UnlockBG:Animation 1:0": [
+      0.5,
+      0.5
+    ],
+    "Medal:Default:0": [
+      0.5,
+      0.5
+    ],
+    "arrow:Default:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonSettings:Default:0": [
+      0.5,
+      0.5
+    ],
+    "check:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Toggle:Default:0": [
+      0.5,
+      0.5
+    ],
+    "Toggle:Default:1": [
+      0.5,
+      0.5
+    ],
+    "OpenMoji:Default:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonPlay:Default:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonPlay:Down:0": [
+      0.6349206349206349,
+      1.4055555555555554
+    ],
+    "ButtonRecord:TapToSpeak:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonRecord:Listening:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonStudy:Default:0": [
+      0.5,
+      0.5
+    ],
+    "ButtonStudy:Down:0": [
+      0,
+      0
+    ],
+    "UIRandom:Default:0": [
+      0.5,
+      0.5
+    ],
+    "UIRandom:Default:1": [
+      0.5,
+      0.5
+    ]
+  },
+  "rotated": [
+    "ButtonPlay:Default:0",
+    "ButtonPlay:Down:0",
+    "ButtonStudy:Default:0",
+    "ButtonStudy:Down:0",
+    "Fruit1:Fruit:7",
+    "ButtonRecord:TapToSpeak:0",
+    "ButtonRecord:Listening:0"
+  ]
 }
