@@ -1,0 +1,29 @@
+[
+  [
+    "Food",
+    "Breakfast",
+    "Seafood",
+    "Meat",
+    "Drinks",
+    "Fruit1",
+    "Fruit2",
+    "Sweets",
+    "Snacks",
+    "Veggies1",
+    "Veggies2"
+  ],
+  [
+    "UIFood",
+    "UIVeggies2",
+    "UIVeggies1",
+    "UISweets",
+    "UISnacks",
+    "UISeafood",
+    "UIMeat",
+    "UIFruit2",
+    "UIFruit",
+    "UIDrinks",
+    "UIBreakfast",
+    "UIRandom"
+  ]
+]

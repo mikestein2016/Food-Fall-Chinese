@@ -1,0 +1,9 @@
+{
+  "name": "Food Fall - Learn Chinese",
+  "firstLayout": "Loader",
+  "viewport": {
+    "width": 480,
+    "height": 854
+  },
+  "appId": "com.mikesteindesign.foodfallzh"
+}

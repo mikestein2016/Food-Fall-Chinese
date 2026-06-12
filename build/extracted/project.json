@@ -1,0 +1,4361 @@
+{
+  "meta": {
+    "name": "Food Fall - Learn Chinese",
+    "firstLayout": "Loader",
+    "viewport": {
+      "width": 480,
+      "height": 854
+    },
+    "appId": "com.mikesteindesign.foodfallzh"
+  },
+  "objectTypes": [
+    {
+      "index": 0,
+      "name": "UIBreakfast",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 261640592961320,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 369,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "UIDrinks",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 710992472814149,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 629,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "UIFruit",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 400189368458160,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Fruit",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 759,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "UIFruit2",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 913704359590772,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 889,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "UIMeat",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 932353534394621,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 369,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "UISeafood",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 653007597125337,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "UISnacks",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 618264493748593,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 629,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "UISweets",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 356970238939020,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 759,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "UIVeggies1",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 356553409271542,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 889,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "UIVeggies2",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 385102524190544,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 1,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "Meat",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 713518261189467,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 369,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/meat-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "Seafood",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 852908325523787,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 499,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/seafood-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "name": "Breakfast",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 482806965247430,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 369,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/breakfast-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "Drinks",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 871609656598035,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 629,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 131,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 261,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 131,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/drinks-sheet0.webp",
+              "x": 261,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "Fruit1",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 372967046859899,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Fruit",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 759,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 131,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 391,
+              "y": 385,
+              "w": 93,
+              "h": 92,
+              "originX": 0.5913978494623656,
+              "originY": 0.40217391304347827,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit1-sheet0.webp",
+              "x": 131,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "Fruit2",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 810052437367629,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 889,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 1,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 261,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 131,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 1,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 261,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 131,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 1,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/fruit2-sheet0.webp",
+              "x": 257,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "Snacks",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 725488152490252,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 629,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 131,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/snacks-sheet0.webp",
+              "x": 131,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "Sweets",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 675090730913480,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 759,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 131,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/sweets-sheet0.webp",
+              "x": 131,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "Veggies1",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 877686171924334,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 889,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 391,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 521,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 651,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 781,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 1,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 131,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "name": "Veggies2",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 102212429353661,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 1,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 131,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 261,
+              "y": 1,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 1,
+              "y": 131,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 261,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/veggies2-sheet0.webp",
+              "x": 1,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "name": "FoodSlider",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 200304923423525,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Animation 1",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 621,
+              "y": 513,
+              "w": 250,
+              "h": 250,
+              "originX": 0,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "name": "RecordSpace",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 611978334446339,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Animation 1",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 621,
+              "y": 513,
+              "w": 250,
+              "h": 250,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "name": "SpeakSpace",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 996438345815239,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Animation 1",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 621,
+              "y": 513,
+              "w": 250,
+              "h": 250,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "name": "ButtonBack",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 393153428059439,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 1,
+              "y": 1,
+              "w": 618,
+              "h": 618,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "name": "Donut",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 677182136109205,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 131,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "name": "Deadline",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 589222327020588,
+      "instanceVars": [
+        {
+          "sid": 389539589372029,
+          "type": 2,
+          "name": "Pos"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Animation 1",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 513,
+              "y": 769,
+              "w": 250,
+              "h": 250,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "name": "UnlockBG",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 732847207428373,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Animation 1",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 513,
+              "y": 769,
+              "w": 250,
+              "h": 250,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "name": "Medal",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 678879225754247,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 261,
+              "y": 769,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "name": "arrow",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 239141168520793,
+      "instanceVars": [
+        {
+          "sid": 744461071542874,
+          "type": 2,
+          "name": "Direction"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 1,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "name": "ButtonSettings",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 916714307328740,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 391,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "name": "check",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 684968442495335,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 521,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "name": "Toggle",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 513545513024970,
+      "instanceVars": [
+        {
+          "sid": 458834236977197,
+          "type": 2,
+          "name": "Setting"
+        },
+        {
+          "sid": 817416957652666,
+          "type": 0,
+          "name": "On"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": true,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 651,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 781,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "name": "Audio",
+      "plugin": "Audio",
+      "pluginId": 5,
+      "sid": 993072276521647,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 33,
+      "name": "Browser",
+      "plugin": "Browser",
+      "pluginId": 6,
+      "sid": 557340025555735,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 34,
+      "name": "SpeechRecognition",
+      "plugin": "SpeechRecognition",
+      "pluginId": 7,
+      "sid": 466979539346596,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 35,
+      "name": "SpeechSynthesis",
+      "plugin": "SpeechSynthesis",
+      "pluginId": 8,
+      "sid": 243736001356314,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 36,
+      "name": "Touch",
+      "plugin": "Touch",
+      "pluginId": 9,
+      "sid": 964670112954159,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 37,
+      "name": "LocalStorage",
+      "plugin": "LocalStorage",
+      "pluginId": 10,
+      "sid": 790029579864154,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 38,
+      "name": "PlatformInfo",
+      "plugin": "PlatformInfo",
+      "pluginId": 11,
+      "sid": 693903684049634,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 39,
+      "name": "OpenMoji",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 883295395063687,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 261,
+              "y": 513,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "name": "MobileAdvert",
+      "plugin": "MobileAdvert",
+      "pluginId": 12,
+      "sid": 530239085927266,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 41,
+      "name": "ButtonPlay",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 321892859963211,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 185,
+              "y": 1,
+              "w": 252,
+              "h": 90,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 277,
+              "y": 1,
+              "w": 252,
+              "h": 90,
+              "originX": 0.6349206349206349,
+              "originY": 1.4055555555555554,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 42,
+      "name": "ButtonRecord",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 898968578059481,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "TapToSpeak",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 897,
+              "y": 1,
+              "w": 402,
+              "h": 122,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        },
+        {
+          "name": "Listening",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet0.webp",
+              "x": 897,
+              "y": 513,
+              "w": 402,
+              "h": 122,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 43,
+      "name": "ButtonStudy",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 655675301487192,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 1,
+              "y": 1,
+              "w": 252,
+              "h": 90,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        },
+        {
+          "name": "Down",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 93,
+              "y": 1,
+              "w": 252,
+              "h": 90,
+              "originX": 0,
+              "originY": 0,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "name": "UIRandom",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 221101054871379,
+      "instanceVars": [],
+      "animations": [
+        {
+          "name": "Default",
+          "speed": 5,
+          "loop": false,
+          "frames": [
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 131,
+              "y": 257,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            },
+            {
+              "sheet": "images/shared-0-sheet1.webp",
+              "x": 261,
+              "y": 261,
+              "w": 128,
+              "h": 128,
+              "originX": 0.5,
+              "originY": 0.5,
+              "tag": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": 45,
+      "name": "ErrorText",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 617978673742382,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 46,
+      "name": "Instructions",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 741861133941733,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 47,
+      "name": "TextCategory",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 609710630025894,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 48,
+      "name": "TextPlay",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 418261713951321,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 49,
+      "name": "TextPlay2",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 968037558303529,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 50,
+      "name": "TextScore",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 823610632073793,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 51,
+      "name": "TextSpeech",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 179904826992182,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 52,
+      "name": "HighScoreText",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 448129329212231,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 53,
+      "name": "FlashingHighScore",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 546299803232231,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 54,
+      "name": "TextLanguage",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 286492155024908,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 55,
+      "name": "TextLicense",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 698145589073948,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 56,
+      "name": "TextMSD",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 193742384025985,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 57,
+      "name": "TextSettings",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 932812655207902,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 58,
+      "name": "TextSettingsHideWords",
+      "plugin": "Text",
+      "pluginId": 14,
+      "sid": 668338403385403,
+      "instanceVars": [],
+      "animations": null
+    },
+    {
+      "index": 59,
+      "name": "Food",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 316254758924944,
+      "instanceVars": [
+        {
+          "sid": 219747525122629,
+          "type": 0,
+          "name": "Destroyable"
+        }
+      ],
+      "animations": null
+    },
+    {
+      "index": 60,
+      "name": "UIFood",
+      "plugin": "Sprite",
+      "pluginId": 0,
+      "sid": 819383517739162,
+      "instanceVars": [],
+      "animations": null
+    }
+  ],
+  "families": [
+    [
+      "Food",
+      "Breakfast",
+      "Seafood",
+      "Meat",
+      "Drinks",
+      "Fruit1",
+      "Fruit2",
+      "Sweets",
+      "Snacks",
+      "Veggies1",
+      "Veggies2"
+    ],
+    [
+      "UIFood",
+      "UIVeggies2",
+      "UIVeggies1",
+      "UISweets",
+      "UISnacks",
+      "UISeafood",
+      "UIMeat",
+      "UIFruit2",
+      "UIFruit",
+      "UIDrinks",
+      "UIBreakfast",
+      "UIRandom"
+    ]
+  ],
+  "layouts": [
+    {
+      "name": "Loader",
+      "width": 480,
+      "height": 854,
+      "eventSheet": "Loader Sheet",
+      "layers": [
+        {
+          "name": "Layer 0",
+          "instances": [
+            {
+              "type": "Donut",
+              "typeIndex": 24,
+              "x": 240,
+              "y": 427,
+              "w": 85,
+              "h": 85,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextLicense",
+              "typeIndex": 55,
+              "x": 106,
+              "y": 737,
+              "w": 362,
+              "h": 112,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "All emojis designed by [b]OpenMoji[/b]\nthe open-source emoji & icon project. "
+            },
+            {
+              "type": "OpenMoji",
+              "typeIndex": 39,
+              "x": 61,
+              "y": 785,
+              "w": 64,
+              "h": 64,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextMSD",
+              "typeIndex": 56,
+              "x": 69,
+              "y": 94,
+              "w": 339,
+              "h": 229,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "MSD"
+            },
+            {
+              "type": "TextMSD",
+              "typeIndex": 56,
+              "x": 72,
+              "y": 97,
+              "w": 339,
+              "h": 229,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "MSD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Title Screen",
+      "width": 480,
+      "height": 854,
+      "eventSheet": "Title Sheet",
+      "layers": [
+        {
+          "name": "Layer 0",
+          "instances": [
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 257,
+              "y": 853,
+              "w": 579,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 258,
+              "y": 113,
+              "w": 579,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonPlay",
+              "typeIndex": 41,
+              "x": 239.9914495068498,
+              "y": 426.7336718760005,
+              "w": 202.017101,
+              "h": 72.148965,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Instructions",
+              "typeIndex": 46,
+              "x": 110.5,
+              "y": 90,
+              "w": 259,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": ""
+            },
+            {
+              "type": "Fruit1",
+              "typeIndex": 14,
+              "x": -93,
+              "y": 172,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ErrorText",
+              "typeIndex": 45,
+              "x": 25,
+              "y": 775,
+              "w": 430,
+              "h": 73,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Sorry, this browser does not support speech recognition. This game works best on Google Chrome. Change your browser or enable your microphone to play this game."
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243.5,
+              "y": 85,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Food Fall"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 236.5,
+              "y": 80,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Food Fall"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243.5,
+              "y": 80,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Food Fall"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237.5,
+              "y": 85,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Food Fall"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 240.5,
+              "y": 82,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Food Fall"
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": -3,
+              "y": 597,
+              "w": 996,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 483,
+              "y": 598,
+              "w": 996,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextLanguage",
+              "typeIndex": 54,
+              "x": 123,
+              "y": 18,
+              "w": 228,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Chinese"
+            },
+            {
+              "type": "TextLanguage",
+              "typeIndex": 54,
+              "x": 129,
+              "y": 18,
+              "w": 228,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Chinese"
+            },
+            {
+              "type": "TextLanguage",
+              "typeIndex": 54,
+              "x": 129,
+              "y": 12,
+              "w": 228,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Chinese"
+            },
+            {
+              "type": "TextLanguage",
+              "typeIndex": 54,
+              "x": 123,
+              "y": 12,
+              "w": 228,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Chinese"
+            },
+            {
+              "type": "TextLanguage",
+              "typeIndex": 54,
+              "x": 126,
+              "y": 15,
+              "w": 228,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Chinese"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Play",
+      "width": 480,
+      "height": 854,
+      "eventSheet": "Play Sheet",
+      "layers": [
+        {
+          "name": "Layer 0",
+          "instances": [
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 221,
+              "y": 776,
+              "w": 579,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 258,
+              "y": -50,
+              "w": 579,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": -3.000000000000015,
+              "y": 441,
+              "w": 1075,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Deadline",
+              "typeIndex": 25,
+              "x": 483,
+              "y": 438,
+              "w": 1082,
+              "h": 6,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            }
+          ]
+        },
+        {
+          "name": "UI",
+          "instances": [
+            {
+              "type": "TextSpeech",
+              "typeIndex": 51,
+              "x": 234,
+              "y": 80,
+              "w": 478,
+              "h": 59,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 1,
+              "text": "10000"
+            },
+            {
+              "type": "TextScore",
+              "typeIndex": 50,
+              "x": -8,
+              "y": -5,
+              "w": 485,
+              "h": 50,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Score: 0"
+            },
+            {
+              "type": "ButtonBack",
+              "typeIndex": 23,
+              "x": 50,
+              "y": 45,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "FlashingHighScore",
+              "typeIndex": 53,
+              "x": 242,
+              "y": 102,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "HIGH SCORE!"
+            },
+            {
+              "type": "FlashingHighScore",
+              "typeIndex": 53,
+              "x": 236,
+              "y": 102,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "HIGH SCORE!"
+            },
+            {
+              "type": "FlashingHighScore",
+              "typeIndex": 53,
+              "x": 241,
+              "y": 96,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "HIGH SCORE!"
+            },
+            {
+              "type": "FlashingHighScore",
+              "typeIndex": 53,
+              "x": 236,
+              "y": 96,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "HIGH SCORE!"
+            },
+            {
+              "type": "FlashingHighScore",
+              "typeIndex": 53,
+              "x": 239,
+              "y": 99,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "HIGH SCORE!"
+            },
+            {
+              "type": "ButtonRecord",
+              "typeIndex": 42,
+              "x": 240.15984300305018,
+              "y": 808.0897719288579,
+              "w": 180.68031399389963,
+              "h": 54.833329122526735,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "RecordSpace",
+              "typeIndex": 21,
+              "x": 240,
+              "y": 758,
+              "w": 480,
+              "h": 190,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonPlay",
+              "typeIndex": 41,
+              "x": 240,
+              "y": 630,
+              "w": 202.0171009863004,
+              "h": 72.14896463796443,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonStudy",
+              "typeIndex": 43,
+              "x": 240,
+              "y": 530,
+              "w": 202.0171009863004,
+              "h": 72.14896463796443,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Fruit1",
+              "typeIndex": 14,
+              "x": -87,
+              "y": 106,
+              "w": 20.71197411003236,
+              "h": 20.71197411003236,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonSettings",
+              "typeIndex": 29,
+              "x": 435,
+              "y": 45,
+              "w": 85,
+              "h": 85,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            }
+          ]
+        },
+        {
+          "name": "Unlock",
+          "instances": [
+            {
+              "type": "UnlockBG",
+              "typeIndex": 26,
+              "x": 240,
+              "y": 430,
+              "w": 415,
+              "h": 610,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 242.5,
+              "y": 211,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "SUCCESS"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 236.5,
+              "y": 207,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "SUCCESS"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243.5,
+              "y": 207,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "SUCCESS"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237.5,
+              "y": 211,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "SUCCESS"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 240.5,
+              "y": 209,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "SUCCESS"
+            },
+            {
+              "type": "Instructions",
+              "typeIndex": 46,
+              "x": 108,
+              "y": 254,
+              "w": 259,
+              "h": 86,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "You've unlocked\n\n[b]Fruit 2[/b]"
+            },
+            {
+              "type": "ButtonPlay",
+              "typeIndex": 41,
+              "x": 240,
+              "y": 630,
+              "w": 202.017101,
+              "h": 72.148965,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonStudy",
+              "typeIndex": 43,
+              "x": 240,
+              "y": 530,
+              "w": 202.0171009863004,
+              "h": 72.14896463796443,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            }
+          ]
+        },
+        {
+          "name": "Settings",
+          "instances": [
+            {
+              "type": "UnlockBG",
+              "typeIndex": 26,
+              "x": 240,
+              "y": 427,
+              "w": 478,
+              "h": 851,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 242,
+              "y": 107,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 236,
+              "y": 103,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243,
+              "y": 103,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237,
+              "y": 107,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 240,
+              "y": 105,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368,
+              "y": 177,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85,
+              "y": 145,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Sound Effects"
+            },
+            {
+              "type": "check",
+              "typeIndex": 30,
+              "x": 240,
+              "y": 605,
+              "w": 128,
+              "h": 128,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 240,
+              "y": 665,
+              "w": 155,
+              "h": 60,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Apply"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Study",
+      "width": 480,
+      "height": 854,
+      "eventSheet": "Study Sheet",
+      "layers": [
+        {
+          "name": "Layer 0",
+          "instances": [
+            {
+              "type": "TextSpeech",
+              "typeIndex": 51,
+              "x": 240,
+              "y": 580,
+              "w": 478,
+              "h": 59,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 1,
+              "text": ""
+            },
+            {
+              "type": "ButtonBack",
+              "typeIndex": 23,
+              "x": 50,
+              "y": 45,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Instructions",
+              "typeIndex": 46,
+              "x": 110.5,
+              "y": 488,
+              "w": 259,
+              "h": 30,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Tap to hear the word"
+            },
+            {
+              "type": "SpeakSpace",
+              "typeIndex": 22,
+              "x": 243.5,
+              "y": 338.5,
+              "w": 301,
+              "h": 401,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextPlay",
+              "typeIndex": 48,
+              "x": 0,
+              "y": 140,
+              "w": 480,
+              "h": 124,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Target Word"
+            },
+            {
+              "type": "ButtonRecord",
+              "typeIndex": 42,
+              "x": 240.15009628780825,
+              "y": 624,
+              "w": 250.69980742438347,
+              "h": 76.08302613376812,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "RecordSpace",
+              "typeIndex": 21,
+              "x": 241,
+              "y": 630,
+              "w": 480,
+              "h": 160,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextPlay2",
+              "typeIndex": 49,
+              "x": 0,
+              "y": 190,
+              "w": 480,
+              "h": 124,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "English"
+            },
+            {
+              "type": "ButtonPlay",
+              "typeIndex": 41,
+              "x": 240,
+              "y": 90,
+              "w": 202.017101,
+              "h": 72.148965,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonSettings",
+              "typeIndex": 29,
+              "x": 435,
+              "y": 45,
+              "w": 85,
+              "h": 85,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "arrow",
+              "typeIndex": 28,
+              "x": 430,
+              "y": 377,
+              "w": 75,
+              "h": 75,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "arrow",
+              "typeIndex": 28,
+              "x": 50,
+              "y": 377,
+              "w": 75,
+              "h": 75,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            }
+          ]
+        },
+        {
+          "name": "SettingsMenu",
+          "instances": [
+            {
+              "type": "UnlockBG",
+              "typeIndex": 26,
+              "x": 240,
+              "y": 427,
+              "w": 478,
+              "h": 851,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 242.5,
+              "y": 107,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 236.5,
+              "y": 103,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243.5,
+              "y": 103,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237.5,
+              "y": 107,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 240.5,
+              "y": 105,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368,
+              "y": 177,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85,
+              "y": 145,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Sound Effects"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368,
+              "y": 277,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85,
+              "y": 245,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Show Pīnyīn"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368,
+              "y": 377,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85,
+              "y": 345,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Tap to see words (test your memory)"
+            },
+            {
+              "type": "check",
+              "typeIndex": 30,
+              "x": 240,
+              "y": 605,
+              "w": 128,
+              "h": 128,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 240,
+              "y": 665,
+              "w": 155,
+              "h": 60,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Apply"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Stage Select",
+      "width": 480,
+      "height": 854,
+      "eventSheet": "Stage Sheet",
+      "layers": [
+        {
+          "name": "Layer 0",
+          "instances": [
+            {
+              "type": "FoodSlider",
+              "typeIndex": 20,
+              "x": 0,
+              "y": 379,
+              "w": 1965,
+              "h": 400,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonPlay",
+              "typeIndex": 41,
+              "x": 240,
+              "y": 675,
+              "w": 202.0171009863004,
+              "h": 72.14896463796443,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonStudy",
+              "typeIndex": 43,
+              "x": 240,
+              "y": 575,
+              "w": 202.0171009863004,
+              "h": 72.14896463796443,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonBack",
+              "typeIndex": 23,
+              "x": 50,
+              "y": 45,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243,
+              "y": 173,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Fruit"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237,
+              "y": 173,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Fruit"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 243,
+              "y": 167,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Fruit"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 237,
+              "y": 167,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Fruit"
+            },
+            {
+              "type": "TextCategory",
+              "typeIndex": 47,
+              "x": 240,
+              "y": 170,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Fruit"
+            },
+            {
+              "type": "Instructions",
+              "typeIndex": 46,
+              "x": 40,
+              "y": 470,
+              "w": 400,
+              "h": 77,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Swipe to select a category."
+            },
+            {
+              "type": "UIFruit",
+              "typeIndex": 2,
+              "x": 240,
+              "y": 380,
+              "w": 150,
+              "h": 150,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIFruit2",
+              "typeIndex": 3,
+              "x": 405,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIVeggies1",
+              "typeIndex": 8,
+              "x": 570,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIVeggies2",
+              "typeIndex": 9,
+              "x": 735,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIMeat",
+              "typeIndex": 4,
+              "x": 900,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UISeafood",
+              "typeIndex": 5,
+              "x": 1065,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIDrinks",
+              "typeIndex": 1,
+              "x": 1230,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UIBreakfast",
+              "typeIndex": 0,
+              "x": 1395,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UISnacks",
+              "typeIndex": 6,
+              "x": 1560,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "UISweets",
+              "typeIndex": 7,
+              "x": 1725,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "HighScoreText",
+              "typeIndex": 52,
+              "x": 30.886738170276885,
+              "y": 215.7222137451172,
+              "w": 418.18181818181824,
+              "h": 78.7272505326705,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "High Score: 10000"
+            },
+            {
+              "type": "UIRandom",
+              "typeIndex": 44,
+              "x": 1890,
+              "y": 380,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "ButtonSettings",
+              "typeIndex": 29,
+              "x": 435,
+              "y": 45,
+              "w": 85,
+              "h": 85,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            }
+          ]
+        },
+        {
+          "name": "Settings",
+          "instances": [
+            {
+              "type": "UnlockBG",
+              "typeIndex": 26,
+              "x": 240.0595758611513,
+              "y": 427.0657312962919,
+              "w": 478,
+              "h": 851,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368.0595758611513,
+              "y": 177.06573129629191,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85.0595758611513,
+              "y": 145.06573129629191,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Sound Effects"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368.0595758611513,
+              "y": 277.0657312962919,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85.0595758611513,
+              "y": 245.06573129629191,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Show Pīnyīn"
+            },
+            {
+              "type": "Toggle",
+              "typeIndex": 31,
+              "x": 368.0595758611513,
+              "y": 377.0657312962919,
+              "w": 100,
+              "h": 100,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 85.0595758611513,
+              "y": 345.0657312962919,
+              "w": 225,
+              "h": 64,
+              "angle": 0,
+              "originX": 0,
+              "originY": 0,
+              "text": "Tap to see words (test your memory)"
+            },
+            {
+              "type": "check",
+              "typeIndex": 30,
+              "x": 240.0595758611513,
+              "y": 605.065731296292,
+              "w": 128,
+              "h": 128,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5
+            },
+            {
+              "type": "TextSettingsHideWords",
+              "typeIndex": 58,
+              "x": 240.0595758611513,
+              "y": 665.065731296292,
+              "w": 155,
+              "h": 60,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Apply"
+            },
+            {
+              "type": "TextSettings",
+              "typeIndex": 57,
+              "x": 237.559576,
+              "y": 108.065731,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextSettings",
+              "typeIndex": 57,
+              "x": 243.559576,
+              "y": 108.065731,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextSettings",
+              "typeIndex": 57,
+              "x": 243.559576,
+              "y": 102.065731,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextSettings",
+              "typeIndex": 57,
+              "x": 237.559576,
+              "y": 102.065731,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            },
+            {
+              "type": "TextSettings",
+              "typeIndex": 57,
+              "x": 240.559576,
+              "y": 105.065731,
+              "w": 440,
+              "h": 149,
+              "angle": 0,
+              "originX": 0.5,
+              "originY": 0.5,
+              "text": "Settings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventSheets": [
+    {
+      "name": "Play Sheet"
+    },
+    {
+      "name": "Title Sheet"
+    },
+    {
+      "name": "Loader Sheet"
+    },
+    {
+      "name": "Study Sheet"
+    },
+    {
+      "name": "Stage Sheet"
+    }
+  ],
+  "media": [
+    {
+      "name": "三明治",
+      "ext": ".webm",
+      "bytes": 21908,
+      "file": "三明治.webm"
+    },
+    {
+      "name": "乌龟",
+      "ext": ".webm",
+      "bytes": 15886,
+      "file": "乌龟.webm"
+    },
+    {
+      "name": "仙人掌",
+      "ext": ".webm",
+      "bytes": 20683,
+      "file": "仙人掌.webm"
+    },
+    {
+      "name": "兔肉",
+      "ext": ".webm",
+      "bytes": 16076,
+      "file": "兔肉.webm"
+    },
+    {
+      "name": "冰淇淋",
+      "ext": ".webm",
+      "bytes": 22377,
+      "file": "冰淇淋.webm"
+    },
+    {
+      "name": "可乐",
+      "ext": ".webm",
+      "bytes": 15386,
+      "file": "可乐.webm"
+    },
+    {
+      "name": "咖啡",
+      "ext": ".webm",
+      "bytes": 15573,
+      "file": "咖啡.webm"
+    },
+    {
+      "name": "啤酒",
+      "ext": ".webm",
+      "bytes": 15708,
+      "file": "啤酒.webm"
+    },
+    {
+      "name": "土豆",
+      "ext": ".webm",
+      "bytes": 14706,
+      "file": "土豆.webm"
+    },
+    {
+      "name": "大蒜",
+      "ext": ".webm",
+      "bytes": 16409,
+      "file": "大蒜.webm"
+    },
+    {
+      "name": "奶酪",
+      "ext": ".webm",
+      "bytes": 16055,
+      "file": "奶酪.webm"
+    },
+    {
+      "name": "威化饼",
+      "ext": ".webm",
+      "bytes": 18685,
+      "file": "威化饼.webm"
+    },
+    {
+      "name": "寿司",
+      "ext": ".webm",
+      "bytes": 17955,
+      "file": "寿司.webm"
+    },
+    {
+      "name": "山羊肉",
+      "ext": ".webm",
+      "bytes": 19619,
+      "file": "山羊肉.webm"
+    },
+    {
+      "name": "巧克力",
+      "ext": ".webm",
+      "bytes": 21524,
+      "file": "巧克力.webm"
+    },
+    {
+      "name": "杯形饼",
+      "ext": ".webm",
+      "bytes": 18951,
+      "file": "杯形饼.webm"
+    },
+    {
+      "name": "果汁",
+      "ext": ".webm",
+      "bytes": 16237,
+      "file": "果汁.webm"
+    },
+    {
+      "name": "柠檬",
+      "ext": ".webm",
+      "bytes": 19930,
+      "file": "柠檬.webm"
+    },
+    {
+      "name": "桃子",
+      "ext": ".webm",
+      "bytes": 16936,
+      "file": "桃子.webm"
+    },
+    {
+      "name": "梨子",
+      "ext": ".webm",
+      "bytes": 16058,
+      "file": "梨子.webm"
+    },
+    {
+      "name": "棒糖",
+      "ext": ".webm",
+      "bytes": 16090,
+      "file": "棒糖.webm"
+    },
+    {
+      "name": "椒盐卷饼",
+      "ext": ".webm",
+      "bytes": 24526,
+      "file": "椒盐卷饼.webm"
+    },
+    {
+      "name": "椰子",
+      "ext": ".webm",
+      "bytes": 13987,
+      "file": "椰子.webm"
+    },
+    {
+      "name": "樱桃",
+      "ext": ".webm",
+      "bytes": 16745,
+      "file": "樱桃.webm"
+    },
+    {
+      "name": "橄榄",
+      "ext": ".webm",
+      "bytes": 14987,
+      "file": "橄榄.webm"
+    },
+    {
+      "name": "橘子",
+      "ext": ".webm",
+      "bytes": 15557,
+      "file": "橘子.webm"
+    },
+    {
+      "name": "比萨",
+      "ext": ".webm",
+      "bytes": 15971,
+      "file": "比萨.webm"
+    },
+    {
+      "name": "水",
+      "ext": ".webm",
+      "bytes": 14381,
+      "file": "水.webm"
+    },
+    {
+      "name": "汉堡包",
+      "ext": ".webm",
+      "bytes": 20376,
+      "file": "汉堡包.webm"
+    },
+    {
+      "name": "洋葱",
+      "ext": ".webm",
+      "bytes": 16938,
+      "file": "洋葱.webm"
+    },
+    {
+      "name": "火鸡肉",
+      "ext": ".webm",
+      "bytes": 20727,
+      "file": "火鸡肉.webm"
+    },
+    {
+      "name": "炸薯条",
+      "ext": ".webm",
+      "bytes": 20424,
+      "file": "炸薯条.webm"
+    },
+    {
+      "name": "热狗",
+      "ext": ".webm",
+      "bytes": 14333,
+      "file": "热狗.webm"
+    },
+    {
+      "name": "熏肉",
+      "ext": ".webm",
+      "bytes": 18042,
+      "file": "熏肉.webm"
+    },
+    {
+      "name": "爆米花",
+      "ext": ".webm",
+      "bytes": 18623,
+      "file": "爆米花.webm"
+    },
+    {
+      "name": "牛奶",
+      "ext": ".webm",
+      "bytes": 15494,
+      "file": "牛奶.webm"
+    },
+    {
+      "name": "牛油",
+      "ext": ".webm",
+      "bytes": 19892,
+      "file": "牛油.webm"
+    },
+    {
+      "name": "牛油果",
+      "ext": ".webm",
+      "bytes": 21516,
+      "file": "牛油果.webm"
+    },
+    {
+      "name": "牛肉",
+      "ext": ".webm",
+      "bytes": 13663,
+      "file": "牛肉.webm"
+    },
+    {
+      "name": "牡蛎",
+      "ext": ".webm",
+      "bytes": 14835,
+      "file": "牡蛎.webm"
+    },
+    {
+      "name": "猕猴桃",
+      "ext": ".webm",
+      "bytes": 21737,
+      "file": "猕猴桃.webm"
+    },
+    {
+      "name": "猪肉",
+      "ext": ".webm",
+      "bytes": 13946,
+      "file": "猪肉.webm"
+    },
+    {
+      "name": "玉米",
+      "ext": ".webm",
+      "bytes": 13367,
+      "file": "玉米.webm"
+    },
+    {
+      "name": "瓜",
+      "ext": ".webm",
+      "bytes": 12556,
+      "file": "瓜.webm"
+    },
+    {
+      "name": "甜甜圈",
+      "ext": ".webm",
+      "bytes": 22680,
+      "file": "甜甜圈.webm"
+    },
+    {
+      "name": "生菜",
+      "ext": ".webm",
+      "bytes": 17646,
+      "file": "生菜.webm"
+    },
+    {
+      "name": "番茄",
+      "ext": ".webm",
+      "bytes": 16697,
+      "file": "番茄.webm"
+    },
+    {
+      "name": "石榴",
+      "ext": ".webm",
+      "bytes": 19475,
+      "file": "石榴.webm"
+    },
+    {
+      "name": "章鱼",
+      "ext": ".webm",
+      "bytes": 17104,
+      "file": "章鱼.webm"
+    },
+    {
+      "name": "米饭",
+      "ext": ".webm",
+      "bytes": 16957,
+      "file": "米饭.webm"
+    },
+    {
+      "name": "糖果",
+      "ext": ".webm",
+      "bytes": 17845,
+      "file": "糖果.webm"
+    },
+    {
+      "name": "绿茶",
+      "ext": ".webm",
+      "bytes": 15754,
+      "file": "绿茶.webm"
+    },
+    {
+      "name": "羊肉",
+      "ext": ".webm",
+      "bytes": 16155,
+      "file": "羊肉.webm"
+    },
+    {
+      "name": "胡萝卜",
+      "ext": ".webm",
+      "bytes": 21046,
+      "file": "胡萝卜.webm"
+    },
+    {
+      "name": "芒果",
+      "ext": ".webm",
+      "bytes": 15530,
+      "file": "芒果.webm"
+    },
+    {
+      "name": "花生",
+      "ext": ".webm",
+      "bytes": 17982,
+      "file": "花生.webm"
+    },
+    {
+      "name": "苹果",
+      "ext": ".webm",
+      "bytes": 14834,
+      "file": "苹果.webm"
+    },
+    {
+      "name": "茄子",
+      "ext": ".webm",
+      "bytes": 15765,
+      "file": "茄子.webm"
+    },
+    {
+      "name": "草莓",
+      "ext": ".webm",
+      "bytes": 17514,
+      "file": "草莓.webm"
+    },
+    {
+      "name": "菠萝",
+      "ext": ".webm",
+      "bytes": 16736,
+      "file": "菠萝.webm"
+    },
+    {
+      "name": "葡萄",
+      "ext": ".webm",
+      "bytes": 18070,
+      "file": "葡萄.webm"
+    },
+    {
+      "name": "葡萄酒",
+      "ext": ".webm",
+      "bytes": 20698,
+      "file": "葡萄酒.webm"
+    },
+    {
+      "name": "蓝莓",
+      "ext": ".webm",
+      "bytes": 18908,
+      "file": "蓝莓.webm"
+    },
+    {
+      "name": "薄煎饼",
+      "ext": ".webm",
+      "bytes": 20368,
+      "file": "薄煎饼.webm"
+    },
+    {
+      "name": "薯",
+      "ext": ".webm",
+      "bytes": 11996,
+      "file": "薯.webm"
+    },
+    {
+      "name": "蘑菇",
+      "ext": ".webm",
+      "bytes": 15482,
+      "file": "蘑菇.webm"
+    },
+    {
+      "name": "虾",
+      "ext": ".webm",
+      "bytes": 14681,
+      "file": "虾.webm"
+    },
+    {
+      "name": "蛋糕",
+      "ext": ".webm",
+      "bytes": 15220,
+      "file": "蛋糕.webm"
+    },
+    {
+      "name": "蜂蜜",
+      "ext": ".webm",
+      "bytes": 14744,
+      "file": "蜂蜜.webm"
+    },
+    {
+      "name": "螃蟹",
+      "ext": ".webm",
+      "bytes": 20155,
+      "file": "螃蟹.webm"
+    },
+    {
+      "name": "西兰花",
+      "ext": ".webm",
+      "bytes": 23466,
+      "file": "西兰花.webm"
+    },
+    {
+      "name": "西瓜",
+      "ext": ".webm",
+      "bytes": 17553,
+      "file": "西瓜.webm"
+    },
+    {
+      "name": "覆盆子",
+      "ext": ".webm",
+      "bytes": 20849,
+      "file": "覆盆子.webm"
+    },
+    {
+      "name": "辣椒",
+      "ext": ".webm",
+      "bytes": 16314,
+      "file": "辣椒.webm"
+    },
+    {
+      "name": "面包",
+      "ext": ".webm",
+      "bytes": 17151,
+      "file": "面包.webm"
+    },
+    {
+      "name": "面条",
+      "ext": ".webm",
+      "bytes": 17086,
+      "file": "面条.webm"
+    },
+    {
+      "name": "饼干",
+      "ext": ".webm",
+      "bytes": 15504,
+      "file": "饼干.webm"
+    },
+    {
+      "name": "馅饼",
+      "ext": ".webm",
+      "bytes": 17856,
+      "file": "馅饼.webm"
+    },
+    {
+      "name": "香槟酒",
+      "ext": ".webm",
+      "bytes": 24316,
+      "file": "香槟酒.webm"
+    },
+    {
+      "name": "香蕉",
+      "ext": ".webm",
+      "bytes": 18054,
+      "file": "香蕉.webm"
+    },
+    {
+      "name": "鱼",
+      "ext": ".webm",
+      "bytes": 15094,
+      "file": "鱼.webm"
+    },
+    {
+      "name": "鱿鱼",
+      "ext": ".webm",
+      "bytes": 16229,
+      "file": "鱿鱼.webm"
+    },
+    {
+      "name": "鸡尾酒",
+      "ext": ".webm",
+      "bytes": 20176,
+      "file": "鸡尾酒.webm"
+    },
+    {
+      "name": "鸡肉",
+      "ext": ".webm",
+      "bytes": 14999,
+      "file": "鸡肉.webm"
+    },
+    {
+      "name": "鸡蛋",
+      "ext": ".webm",
+      "bytes": 15186,
+      "file": "鸡蛋.webm"
+    },
+    {
+      "name": "鸭肉",
+      "ext": ".webm",
+      "bytes": 15886,
+      "file": "鸭肉.webm"
+    },
+    {
+      "name": "黄瓜",
+      "ext": ".webm",
+      "bytes": 16619,
+      "file": "黄瓜.webm"
+    },
+    {
+      "name": "龙虾",
+      "ext": ".webm",
+      "bytes": 17266,
+      "file": "龙虾.webm"
+    },
+    {
+      "name": "correct",
+      "ext": ".mp3",
+      "bytes": 65963,
+      "file": "correct.mp3"
+    },
+    {
+      "name": "bite",
+      "ext": ".mp3",
+      "bytes": 31457,
+      "file": "bite.mp3"
+    },
+    {
+      "name": "switch",
+      "ext": ".webm",
+      "bytes": 1656,
+      "file": "switch.webm"
+    }
+  ]
+}
