@@ -14,12 +14,22 @@ export class BootScene extends Phaser.Scene {
   }
 
   preload(): void {
-    preloadSheets(this.load);
+    this.cameras.main.setBackgroundColor(0x1e50a0);
+    const cx = VIEWPORT.width / 2;
+    const cy = VIEWPORT.height / 2;
+
     this.add
-      .text(VIEWPORT.width / 2, VIEWPORT.height / 2, "Loading…", {
-        fontFamily: "Arial", fontSize: "18px", color: "#ffffff",
+      .text(cx, cy - 60, "FOOD FALL", {
+        fontFamily: "Arial", fontSize: "28px", color: "#ffffff", fontStyle: "bold",
       })
       .setOrigin(0.5);
+
+    const barW = 280;
+    this.add.rectangle(cx, cy, barW, 18, 0x000000, 0.35).setStrokeStyle(2, 0xffffff);
+    const fill = this.add.rectangle(cx - barW / 2 + 2, cy, 0, 12, 0xa6d83a).setOrigin(0, 0.5);
+    this.load.on("progress", (p: number) => fill.setSize((barW - 4) * p, 12));
+
+    preloadSheets(this.load);
   }
 
   create(): void {

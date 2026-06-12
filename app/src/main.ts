@@ -27,3 +27,11 @@ const config: Phaser.Types.Core.GameConfig = {
 // Expose the game instance so the verification harness can introspect state.
 const game = new Phaser.Game(config);
 (window as unknown as { game: Phaser.Game }).game = game;
+
+// Register the offline service worker (skipped under the ?static harness so
+// cached assets never make screenshots non-deterministic).
+if ("serviceWorker" in navigator && !new URLSearchParams(location.search).has("static")) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => undefined);
+  });
+}

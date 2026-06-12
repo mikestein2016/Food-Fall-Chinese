@@ -7,6 +7,7 @@ import {
 } from "../content/data";
 import { playSfx } from "../audio/audio";
 import { recognizeOnce, transcriptMatches, type RecognitionHandle } from "../audio/recognition";
+import { loadSettings } from "../content/settings";
 
 const BG = 0x1e50a0;
 const DEADLINE_Y = 760; // food past here ends the run (Construct "Deadline")
@@ -39,9 +40,12 @@ export class PlayScene extends Phaser.Scene {
     this.current = undefined;
   }
 
+  private soundOn = true;
+
   create(): void {
     this.cameras.main.setBackgroundColor(BG);
     this.words = wordsForCategory(this.category.id);
+    this.soundOn = loadSettings().soundEffects;
     this.isStatic = new URLSearchParams(location.search).has("static");
     this.matter.world.setGravity(0, this.isStatic ? 0 : 1);
 
@@ -91,14 +95,18 @@ export class PlayScene extends Phaser.Scene {
       (transcript) => {
         done();
         if (transcriptMatches(transcript, this.currentWord.hanzi)) this.clearFood();
-        else playSfx("bite");
+        else this.sfx("bite");
       },
       () => done(),
     );
   }
 
+  private sfx(name: "correct" | "bite" | "switch"): void {
+    if (this.soundOn) playSfx(name);
+  }
+
   private clearFood(): void {
-    playSfx("correct");
+    this.sfx("correct");
     this.current?.destroy();
     this.current = undefined;
     this.score += 1;
