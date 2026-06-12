@@ -30,6 +30,7 @@ const wantAB = args.includes("--ab");
 const SCENES: Array<{ name: string; query: string }> = [
   { name: "title", query: "static=1" },
   { name: "stageselect", query: "scene=StageSelect&category=fruit1&static=1" },
+  { name: "study", query: "scene=Study&category=fruit1&static=1" },
 ];
 
 async function shootNewApp(browser: Browser): Promise<void> {
