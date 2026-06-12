@@ -1,0 +1,25 @@
+{
+  "name": "food-fall-chinese",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "serve:original": "vite preview --outDir . --port 4180",
+    "extract": "python3 tools/extract_construct.py",
+    "verify": "tsx harness/verify.ts",
+    "verify:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.21",
+    "playwright": "^1.49.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "phaser": "^3.87.0"
+  }
+}

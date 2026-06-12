@@ -108,6 +108,34 @@ def decode_media(P):
     return out
 
 
+def emit_app_content(data):
+    """Write generated, app-importable JSON the Phaser code consumes directly.
+    Atlas = flat list of frame rects keyed `Type:anim:index` per sheet. Layouts
+    are passed through (positions). These are generated artifacts — never edit by
+    hand; re-run this script instead."""
+    app_dir = os.path.join(ROOT, "app", "src", "content")
+    os.makedirs(app_dir, exist_ok=True)
+
+    atlas = {}  # sheet -> { frameName: {x,y,w,h,originX,originY} }
+    for t in data["objectTypes"]:
+        if not t["animations"]:
+            continue
+        for a in t["animations"]:
+            for i, fr in enumerate(a["frames"]):
+                sheet = os.path.splitext(os.path.basename(fr["sheet"]))[0]
+                atlas.setdefault(sheet, {})
+                name = f'{t["name"]}:{a["name"]}:{i}'
+                atlas[sheet][name] = {k: fr[k] for k in ("x", "y", "w", "h", "originX", "originY")}
+
+    sheets = {s: f"images/{s}.webp" for s in atlas}
+    with open(os.path.join(app_dir, "atlas.generated.json"), "w", encoding="utf-8") as f:
+        json.dump({"sheets": sheets, "frames": atlas}, f, ensure_ascii=False, indent=2)
+    with open(os.path.join(app_dir, "layouts.generated.json"), "w", encoding="utf-8") as f:
+        json.dump(data["layouts"], f, ensure_ascii=False, indent=2)
+    with open(os.path.join(app_dir, "media.generated.json"), "w", encoding="utf-8") as f:
+        json.dump(data["media"], f, ensure_ascii=False, indent=2)
+
+
 def main():
     P = load()
     os.makedirs(OUT, exist_ok=True)
@@ -131,6 +159,8 @@ def main():
     # one combined file too
     with open(os.path.join(OUT, "project.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+    emit_app_content(data)
 
     # quick console summary
     sprites = [t for t in types if t["plugin"] == "Sprite"]

@@ -1,0 +1,1509 @@
+[
+  {
+    "name": "Loader",
+    "width": 480,
+    "height": 854,
+    "eventSheet": "Loader Sheet",
+    "layers": [
+      {
+        "name": "Layer 0",
+        "instances": [
+          {
+            "type": "Donut",
+            "typeIndex": 24,
+            "x": 240,
+            "y": 427,
+            "w": 85,
+            "h": 85,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextLicense",
+            "typeIndex": 55,
+            "x": 106,
+            "y": 737,
+            "w": 362,
+            "h": 112,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "All emojis designed by [b]OpenMoji[/b]\nthe open-source emoji & icon project. "
+          },
+          {
+            "type": "OpenMoji",
+            "typeIndex": 39,
+            "x": 61,
+            "y": 785,
+            "w": 64,
+            "h": 64,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextMSD",
+            "typeIndex": 56,
+            "x": 69,
+            "y": 94,
+            "w": 339,
+            "h": 229,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "MSD"
+          },
+          {
+            "type": "TextMSD",
+            "typeIndex": 56,
+            "x": 72,
+            "y": 97,
+            "w": 339,
+            "h": 229,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "MSD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Title Screen",
+    "width": 480,
+    "height": 854,
+    "eventSheet": "Title Sheet",
+    "layers": [
+      {
+        "name": "Layer 0",
+        "instances": [
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 257,
+            "y": 853,
+            "w": 579,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 258,
+            "y": 113,
+            "w": 579,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonPlay",
+            "typeIndex": 41,
+            "x": 239.9914495068498,
+            "y": 426.7336718760005,
+            "w": 202.017101,
+            "h": 72.148965,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Instructions",
+            "typeIndex": 46,
+            "x": 110.5,
+            "y": 90,
+            "w": 259,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": ""
+          },
+          {
+            "type": "Fruit1",
+            "typeIndex": 14,
+            "x": -93,
+            "y": 172,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ErrorText",
+            "typeIndex": 45,
+            "x": 25,
+            "y": 775,
+            "w": 430,
+            "h": 73,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Sorry, this browser does not support speech recognition. This game works best on Google Chrome. Change your browser or enable your microphone to play this game."
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243.5,
+            "y": 85,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Food Fall"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 236.5,
+            "y": 80,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Food Fall"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243.5,
+            "y": 80,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Food Fall"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237.5,
+            "y": 85,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Food Fall"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 240.5,
+            "y": 82,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Food Fall"
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": -3,
+            "y": 597,
+            "w": 996,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 483,
+            "y": 598,
+            "w": 996,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextLanguage",
+            "typeIndex": 54,
+            "x": 123,
+            "y": 18,
+            "w": 228,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Chinese"
+          },
+          {
+            "type": "TextLanguage",
+            "typeIndex": 54,
+            "x": 129,
+            "y": 18,
+            "w": 228,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Chinese"
+          },
+          {
+            "type": "TextLanguage",
+            "typeIndex": 54,
+            "x": 129,
+            "y": 12,
+            "w": 228,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Chinese"
+          },
+          {
+            "type": "TextLanguage",
+            "typeIndex": 54,
+            "x": 123,
+            "y": 12,
+            "w": 228,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Chinese"
+          },
+          {
+            "type": "TextLanguage",
+            "typeIndex": 54,
+            "x": 126,
+            "y": 15,
+            "w": 228,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Chinese"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Play",
+    "width": 480,
+    "height": 854,
+    "eventSheet": "Play Sheet",
+    "layers": [
+      {
+        "name": "Layer 0",
+        "instances": [
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 221,
+            "y": 776,
+            "w": 579,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 258,
+            "y": -50,
+            "w": 579,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": -3.000000000000015,
+            "y": 441,
+            "w": 1075,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Deadline",
+            "typeIndex": 25,
+            "x": 483,
+            "y": 438,
+            "w": 1082,
+            "h": 6,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          }
+        ]
+      },
+      {
+        "name": "UI",
+        "instances": [
+          {
+            "type": "TextSpeech",
+            "typeIndex": 51,
+            "x": 234,
+            "y": 80,
+            "w": 478,
+            "h": 59,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 1,
+            "text": "10000"
+          },
+          {
+            "type": "TextScore",
+            "typeIndex": 50,
+            "x": -8,
+            "y": -5,
+            "w": 485,
+            "h": 50,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Score: 0"
+          },
+          {
+            "type": "ButtonBack",
+            "typeIndex": 23,
+            "x": 50,
+            "y": 45,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "FlashingHighScore",
+            "typeIndex": 53,
+            "x": 242,
+            "y": 102,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "HIGH SCORE!"
+          },
+          {
+            "type": "FlashingHighScore",
+            "typeIndex": 53,
+            "x": 236,
+            "y": 102,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "HIGH SCORE!"
+          },
+          {
+            "type": "FlashingHighScore",
+            "typeIndex": 53,
+            "x": 241,
+            "y": 96,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "HIGH SCORE!"
+          },
+          {
+            "type": "FlashingHighScore",
+            "typeIndex": 53,
+            "x": 236,
+            "y": 96,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "HIGH SCORE!"
+          },
+          {
+            "type": "FlashingHighScore",
+            "typeIndex": 53,
+            "x": 239,
+            "y": 99,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "HIGH SCORE!"
+          },
+          {
+            "type": "ButtonRecord",
+            "typeIndex": 42,
+            "x": 240.15984300305018,
+            "y": 808.0897719288579,
+            "w": 180.68031399389963,
+            "h": 54.833329122526735,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "RecordSpace",
+            "typeIndex": 21,
+            "x": 240,
+            "y": 758,
+            "w": 480,
+            "h": 190,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonPlay",
+            "typeIndex": 41,
+            "x": 240,
+            "y": 630,
+            "w": 202.0171009863004,
+            "h": 72.14896463796443,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonStudy",
+            "typeIndex": 43,
+            "x": 240,
+            "y": 530,
+            "w": 202.0171009863004,
+            "h": 72.14896463796443,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Fruit1",
+            "typeIndex": 14,
+            "x": -87,
+            "y": 106,
+            "w": 20.71197411003236,
+            "h": 20.71197411003236,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonSettings",
+            "typeIndex": 29,
+            "x": 435,
+            "y": 45,
+            "w": 85,
+            "h": 85,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Unlock",
+        "instances": [
+          {
+            "type": "UnlockBG",
+            "typeIndex": 26,
+            "x": 240,
+            "y": 430,
+            "w": 415,
+            "h": 610,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 242.5,
+            "y": 211,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "SUCCESS"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 236.5,
+            "y": 207,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "SUCCESS"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243.5,
+            "y": 207,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "SUCCESS"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237.5,
+            "y": 211,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "SUCCESS"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 240.5,
+            "y": 209,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "SUCCESS"
+          },
+          {
+            "type": "Instructions",
+            "typeIndex": 46,
+            "x": 108,
+            "y": 254,
+            "w": 259,
+            "h": 86,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "You've unlocked\n\n[b]Fruit 2[/b]"
+          },
+          {
+            "type": "ButtonPlay",
+            "typeIndex": 41,
+            "x": 240,
+            "y": 630,
+            "w": 202.017101,
+            "h": 72.148965,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonStudy",
+            "typeIndex": 43,
+            "x": 240,
+            "y": 530,
+            "w": 202.0171009863004,
+            "h": 72.14896463796443,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Settings",
+        "instances": [
+          {
+            "type": "UnlockBG",
+            "typeIndex": 26,
+            "x": 240,
+            "y": 427,
+            "w": 478,
+            "h": 851,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 242,
+            "y": 107,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 236,
+            "y": 103,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243,
+            "y": 103,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237,
+            "y": 107,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 240,
+            "y": 105,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368,
+            "y": 177,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85,
+            "y": 145,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Sound Effects"
+          },
+          {
+            "type": "check",
+            "typeIndex": 30,
+            "x": 240,
+            "y": 605,
+            "w": 128,
+            "h": 128,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 240,
+            "y": 665,
+            "w": 155,
+            "h": 60,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Apply"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Study",
+    "width": 480,
+    "height": 854,
+    "eventSheet": "Study Sheet",
+    "layers": [
+      {
+        "name": "Layer 0",
+        "instances": [
+          {
+            "type": "TextSpeech",
+            "typeIndex": 51,
+            "x": 240,
+            "y": 580,
+            "w": 478,
+            "h": 59,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 1,
+            "text": ""
+          },
+          {
+            "type": "ButtonBack",
+            "typeIndex": 23,
+            "x": 50,
+            "y": 45,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Instructions",
+            "typeIndex": 46,
+            "x": 110.5,
+            "y": 488,
+            "w": 259,
+            "h": 30,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Tap to hear the word"
+          },
+          {
+            "type": "SpeakSpace",
+            "typeIndex": 22,
+            "x": 243.5,
+            "y": 338.5,
+            "w": 301,
+            "h": 401,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextPlay",
+            "typeIndex": 48,
+            "x": 0,
+            "y": 140,
+            "w": 480,
+            "h": 124,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Target Word"
+          },
+          {
+            "type": "ButtonRecord",
+            "typeIndex": 42,
+            "x": 240.15009628780825,
+            "y": 624,
+            "w": 250.69980742438347,
+            "h": 76.08302613376812,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "RecordSpace",
+            "typeIndex": 21,
+            "x": 241,
+            "y": 630,
+            "w": 480,
+            "h": 160,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextPlay2",
+            "typeIndex": 49,
+            "x": 0,
+            "y": 190,
+            "w": 480,
+            "h": 124,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "English"
+          },
+          {
+            "type": "ButtonPlay",
+            "typeIndex": 41,
+            "x": 240,
+            "y": 90,
+            "w": 202.017101,
+            "h": 72.148965,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonSettings",
+            "typeIndex": 29,
+            "x": 435,
+            "y": 45,
+            "w": 85,
+            "h": 85,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "arrow",
+            "typeIndex": 28,
+            "x": 430,
+            "y": 377,
+            "w": 75,
+            "h": 75,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "arrow",
+            "typeIndex": 28,
+            "x": 50,
+            "y": 377,
+            "w": 75,
+            "h": 75,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          }
+        ]
+      },
+      {
+        "name": "SettingsMenu",
+        "instances": [
+          {
+            "type": "UnlockBG",
+            "typeIndex": 26,
+            "x": 240,
+            "y": 427,
+            "w": 478,
+            "h": 851,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 242.5,
+            "y": 107,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 236.5,
+            "y": 103,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243.5,
+            "y": 103,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237.5,
+            "y": 107,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 240.5,
+            "y": 105,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368,
+            "y": 177,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85,
+            "y": 145,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Sound Effects"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368,
+            "y": 277,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85,
+            "y": 245,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Show Pīnyīn"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368,
+            "y": 377,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85,
+            "y": 345,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Tap to see words (test your memory)"
+          },
+          {
+            "type": "check",
+            "typeIndex": 30,
+            "x": 240,
+            "y": 605,
+            "w": 128,
+            "h": 128,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 240,
+            "y": 665,
+            "w": 155,
+            "h": 60,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Apply"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stage Select",
+    "width": 480,
+    "height": 854,
+    "eventSheet": "Stage Sheet",
+    "layers": [
+      {
+        "name": "Layer 0",
+        "instances": [
+          {
+            "type": "FoodSlider",
+            "typeIndex": 20,
+            "x": 0,
+            "y": 379,
+            "w": 1965,
+            "h": 400,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonPlay",
+            "typeIndex": 41,
+            "x": 240,
+            "y": 675,
+            "w": 202.0171009863004,
+            "h": 72.14896463796443,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonStudy",
+            "typeIndex": 43,
+            "x": 240,
+            "y": 575,
+            "w": 202.0171009863004,
+            "h": 72.14896463796443,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonBack",
+            "typeIndex": 23,
+            "x": 50,
+            "y": 45,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243,
+            "y": 173,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Fruit"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237,
+            "y": 173,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Fruit"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 243,
+            "y": 167,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Fruit"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 237,
+            "y": 167,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Fruit"
+          },
+          {
+            "type": "TextCategory",
+            "typeIndex": 47,
+            "x": 240,
+            "y": 170,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Fruit"
+          },
+          {
+            "type": "Instructions",
+            "typeIndex": 46,
+            "x": 40,
+            "y": 470,
+            "w": 400,
+            "h": 77,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Swipe to select a category."
+          },
+          {
+            "type": "UIFruit",
+            "typeIndex": 2,
+            "x": 240,
+            "y": 380,
+            "w": 150,
+            "h": 150,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIFruit2",
+            "typeIndex": 3,
+            "x": 405,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIVeggies1",
+            "typeIndex": 8,
+            "x": 570,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIVeggies2",
+            "typeIndex": 9,
+            "x": 735,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIMeat",
+            "typeIndex": 4,
+            "x": 900,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UISeafood",
+            "typeIndex": 5,
+            "x": 1065,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIDrinks",
+            "typeIndex": 1,
+            "x": 1230,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UIBreakfast",
+            "typeIndex": 0,
+            "x": 1395,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UISnacks",
+            "typeIndex": 6,
+            "x": 1560,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "UISweets",
+            "typeIndex": 7,
+            "x": 1725,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "HighScoreText",
+            "typeIndex": 52,
+            "x": 30.886738170276885,
+            "y": 215.7222137451172,
+            "w": 418.18181818181824,
+            "h": 78.7272505326705,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "High Score: 10000"
+          },
+          {
+            "type": "UIRandom",
+            "typeIndex": 44,
+            "x": 1890,
+            "y": 380,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "ButtonSettings",
+            "typeIndex": 29,
+            "x": 435,
+            "y": 45,
+            "w": 85,
+            "h": 85,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Settings",
+        "instances": [
+          {
+            "type": "UnlockBG",
+            "typeIndex": 26,
+            "x": 240.0595758611513,
+            "y": 427.0657312962919,
+            "w": 478,
+            "h": 851,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368.0595758611513,
+            "y": 177.06573129629191,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85.0595758611513,
+            "y": 145.06573129629191,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Sound Effects"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368.0595758611513,
+            "y": 277.0657312962919,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85.0595758611513,
+            "y": 245.06573129629191,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Show Pīnyīn"
+          },
+          {
+            "type": "Toggle",
+            "typeIndex": 31,
+            "x": 368.0595758611513,
+            "y": 377.0657312962919,
+            "w": 100,
+            "h": 100,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 85.0595758611513,
+            "y": 345.0657312962919,
+            "w": 225,
+            "h": 64,
+            "angle": 0,
+            "originX": 0,
+            "originY": 0,
+            "text": "Tap to see words (test your memory)"
+          },
+          {
+            "type": "check",
+            "typeIndex": 30,
+            "x": 240.0595758611513,
+            "y": 605.065731296292,
+            "w": 128,
+            "h": 128,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5
+          },
+          {
+            "type": "TextSettingsHideWords",
+            "typeIndex": 58,
+            "x": 240.0595758611513,
+            "y": 665.065731296292,
+            "w": 155,
+            "h": 60,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Apply"
+          },
+          {
+            "type": "TextSettings",
+            "typeIndex": 57,
+            "x": 237.559576,
+            "y": 108.065731,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextSettings",
+            "typeIndex": 57,
+            "x": 243.559576,
+            "y": 108.065731,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextSettings",
+            "typeIndex": 57,
+            "x": 243.559576,
+            "y": 102.065731,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextSettings",
+            "typeIndex": 57,
+            "x": 237.559576,
+            "y": 102.065731,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          },
+          {
+            "type": "TextSettings",
+            "typeIndex": 57,
+            "x": 240.559576,
+            "y": 105.065731,
+            "w": 440,
+            "h": 149,
+            "angle": 0,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Settings"
+          }
+        ]
+      }
+    ]
+  }
+]
