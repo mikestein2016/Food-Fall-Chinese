@@ -26,6 +26,13 @@ export class BootScene extends Phaser.Scene {
     normalizeRotatedFrames(this.textures);
     loadFonts()
       .catch(() => undefined) // fonts are cosmetic; never block boot
-      .then(() => this.scene.start("Title"));
+      .then(() => {
+        // ?scene=StageSelect&category=fruit1 jumps straight to a screen so the
+        // verification harness can A/B any scene deterministically.
+        const params = new URLSearchParams(location.search);
+        const scene = params.get("scene") ?? "Title";
+        const categoryId = params.get("category") ?? undefined;
+        this.scene.start(scene, categoryId ? { categoryId } : undefined);
+      });
   }
 }

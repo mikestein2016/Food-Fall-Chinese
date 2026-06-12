@@ -26,6 +26,12 @@ const VIEWPORT = { width: 480, height: 854 };
 const args = process.argv.slice(2);
 const wantAB = args.includes("--ab");
 
+// Scenes to screenshot in the new app. ?static keeps spawning deterministic.
+const SCENES: Array<{ name: string; query: string }> = [
+  { name: "title", query: "static=1" },
+  { name: "stageselect", query: "scene=StageSelect&category=fruit1&static=1" },
+];
+
 async function shootNewApp(browser: Browser): Promise<void> {
   const server = await createViteServer({
     root: resolve(ROOT, "app"),
@@ -34,21 +40,21 @@ async function shootNewApp(browser: Browser): Promise<void> {
     logLevel: "warn",
   });
   await server.listen();
-  // ?static disables nondeterministic spawning for stable A/B screenshots.
-  const url = `http://localhost:5180/?static=1`;
   try {
-    const page = await newPage(browser);
-    const errors = captureErrors(page);
-    await page.goto(url, { waitUntil: "networkidle" });
-    await page.waitForFunction(() => (window as any).__ready === true, { timeout: 15000 });
-    await page.waitForTimeout(300);
-    await page.screenshot({ path: resolve(OUT, "new-app.png") });
-    console.log("✓ new app  -> build/screenshots/new-app.png");
-    if (errors.length) {
-      console.error("✗ page errors:\n" + errors.join("\n"));
-      process.exitCode = 1;
+    for (const scene of SCENES) {
+      const page = await newPage(browser);
+      const errors = captureErrors(page);
+      await page.goto(`http://localhost:5180/?${scene.query}`, { waitUntil: "networkidle" });
+      await page.waitForFunction(() => (window as any).__ready === true, { timeout: 15000 });
+      await page.waitForTimeout(300);
+      await page.screenshot({ path: resolve(OUT, `new-${scene.name}.png`) });
+      console.log(`✓ new app  -> build/screenshots/new-${scene.name}.png`);
+      if (errors.length) {
+        console.error(`✗ ${scene.name} errors:\n` + errors.join("\n"));
+        process.exitCode = 1;
+      }
+      await page.close();
     }
-    await page.close();
   } finally {
     await server.close();
   }

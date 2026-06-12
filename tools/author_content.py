@@ -21,13 +21,13 @@ CONTENT = os.path.join(ROOT, "app", "src", "content")
 CATEGORIES = [
     ("breakfast", "Breakfast", "Default", "Breakfast", "zh_HSBreakfast", "UIBreakfast"),
     ("drinks",    "Drinks",    "Default", "Drinks",    "zh_HSDrinks",   "UIDrinks"),
-    ("fruit1",    "Fruit1",    "Fruit",   "Fruit",     "zh_HSFruit1",   "UIFruit"),
+    ("fruit1",    "Fruit1",    "Fruit",   "Fruit 1",   "zh_HSFruit1",   "UIFruit"),
     ("fruit2",    "Fruit2",    "Default", "Fruit 2",   "zh_HSFruit2",   "UIFruit2"),
     ("meat",      "Meat",      "Default", "Meat",      "zh_HSMeat",     "UIMeat"),
     ("seafood",   "Seafood",   "Default", "Seafood",   "zh_HSSeafood",  "UISeafood"),
     ("snacks",    "Snacks",    "Default", "Snacks",    "zh_HSSnacks",   "UISnacks"),
     ("sweets",    "Sweets",    "Default", "Sweets",    "zh_HSSweets",   "UISweets"),
-    ("veggies1",  "Veggies1",  "Default", "Vegetables","zh_HSVeggies1", "UIVeggies1"),
+    ("veggies1",  "Veggies1",  "Default", "Vegetables 1","zh_HSVeggies1", "UIVeggies1"),
     ("veggies2",  "Veggies2",  "Default", "Vegetables 2","zh_HSVeggies2","UIVeggies2"),
 ]
 
