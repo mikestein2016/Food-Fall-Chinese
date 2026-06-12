@@ -1,23 +1,23 @@
 name: Deploy to GitHub Pages
 
-# Builds the Vite + Phaser app and deploys the static dist/ to GitHub Pages.
-# Requires repo Settings -> Pages -> Source = "GitHub Actions".
+# Builds the Vite + Phaser app and publishes the static dist/ to the gh-pages
+# branch, which GitHub Pages serves. No Pages "source" setting change needed:
+# this replaces the served index.html (the old Construct export) with the new
+# build. The original export remains on the development branch and in history.
 on:
   push:
     branches: [claude/construct-phaser-migration-531ffj]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
+  group: pages-deploy
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1" # browsers only needed for the harness
@@ -29,16 +29,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      - uses: actions/upload-pages-artifact@v3
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
