@@ -12,6 +12,7 @@ import { loadSettings } from "../content/settings";
 const BG = 0x1e50a0;
 const DEADLINE_Y = 760; // food past here ends the run (Construct "Deadline")
 const SPAWN_X = VIEWPORT.width / 2;
+const FALL_SPEED = 2.6; // constant px/step downward (~5s to cross), arcade pace
 
 /** Play — falling-food gameplay (ports the Construct "Play" layout + sheet):
  *  a food falls, you tap-to-speak its Chinese name before it crosses the
@@ -47,7 +48,8 @@ export class PlayScene extends Phaser.Scene {
     this.words = wordsForCategory(this.category.id);
     this.soundOn = loadSettings().soundEffects;
     this.isStatic = new URLSearchParams(location.search).has("static");
-    this.matter.world.setGravity(0, this.isStatic ? 0 : 1);
+    // Constant fall speed (no gravity acceleration) for a steady arcade pace.
+    this.matter.world.setGravity(0, 0);
 
     this.scoreText = this.add
       .text(VIEWPORT.width / 2, 18, "Score: 0", {
@@ -84,6 +86,7 @@ export class PlayScene extends Phaser.Scene {
       frictionAir: 0,
     }).setDisplaySize(80, 80);
     this.current.setFixedRotation();
+    if (!this.isStatic) this.current.setVelocityY(FALL_SPEED);
   }
 
   private startListening(): void {
